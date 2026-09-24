@@ -1,5 +1,7 @@
 # 我的搜索 · 插件市场
 
+> **中文** | [English](./README.en.md)
+
 本仓库是「我的搜索」桌面应用的**插件市场**：既存放官方插件包，也存放市场索引。
 
 ## 架构：两层索引
@@ -36,6 +38,8 @@ https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/index.d
 **新增插件**：审核后在此加一行即可，之后开发者发版无需改动本文件。
 **仓库 404**：构建工具会自动把失效的仓库从 `three-parties` 移除。
 
+> 想把自己的插件上架？见 [插件开发与上架指南](./docs/plugin-market-publish.md)。
+
 ## 插件包存放位置
 
 ### 官方插件：按版本归档（仓库文件）
@@ -60,7 +64,7 @@ official-plugins/
 
 ## 索引如何更新
 
-`.github/workflows/build-market-index.yml` **每小时**自动构建一次：
+[`.github/workflows/build-index.yml`](./.github/workflows/build-index.yml) **每小时**自动构建一次：
 
 1. 读 `index.json`
 2. 逐个解析（官方列版本目录 / 三方下载 Release 包）

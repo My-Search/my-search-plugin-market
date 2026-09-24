@@ -1,6 +1,6 @@
 # 插件开发与上架指南
 
-> English version: [plugin-market-publish.en.md](./plugin-market-publish.en.md)
+> **中文（默认）** | [English](./plugin-market-publish.en.md)
 
 > 本文在市场仓库有一份副本，供第三方开发者直接查阅：
 > https://github.com/My-Search/my-search-plugin-market/blob/main/docs/plugin-market-publish.md

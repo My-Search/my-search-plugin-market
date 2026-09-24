@@ -1,6 +1,6 @@
 # Plugin Development & Publishing Guide
 
-> 中文版（默认）: [plugin-market-publish.md](./plugin-market-publish.md)
+> **English** | [中文（默认）](./plugin-market-publish.md)
 
 > A copy of this file lives in the market repository for third-party developers:
 > https://github.com/My-Search/my-search-plugin-market/blob/main/docs/plugin-market-publish.en.md
