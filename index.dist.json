@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T14:06:28.243Z",
+  "generatedAt": "2026-09-24T14:40:23.798Z",
   "baseUrl": "https://github.com/My-Search/my-search-plugin-market/releases/download",
   "plugins": [
     {
@@ -63,13 +63,14 @@
         "tools"
       ],
       "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.market/1.0.0/com.mysearch.market.mspp",
-      "sha256": "dac6931ce910876fcbc84579356725fbe2336ec31f0b9922ca744f71dd9ac1e2",
-      "size": 13965,
+      "sha256": "04b277e9d545330e133757522a38fee938bc6d10620d884ffde76b98553992ce",
+      "size": 15348,
       "permissions": [
         "ui.inlay",
         "store",
         "plugin.install",
-        "ui.notify"
+        "ui.notify",
+        "system.openExternal"
       ],
       "minAppVersion": "7.9.16",
       "homepage": "https://github.com/My-Search",
