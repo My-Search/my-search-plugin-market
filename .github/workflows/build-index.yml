@@ -89,7 +89,12 @@ jobs:
           cd market
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A index.json index.dist.json index.error.json error-item.txt
+          # 只提交索引文件。error-item.txt 是旧文件名，若仍在版本控制中则移除；
+          # 逐个 add 并对不存在的文件容错（--ignore-unmatch / || true）。
+          git rm -q --cached --ignore-unmatch error-item.txt || true
+          for f in index.json index.dist.json index.error.json; do
+            if [ -f "$f" ]; then git add "$f"; fi
+          done
           if git diff --cached --quiet; then
             echo "索引无变化，跳过提交"
           else
