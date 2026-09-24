@@ -80,7 +80,12 @@ jobs:
           cp upstream/dist/market/index.dist.json market/index.dist.json
           cp upstream/dist/market/index.error.json market/index.error.json
 
-          # 构建器可能因仓库 404 自动改写源清单，一并带回
+          # 源清单会被构建器改写并带回：
+          #   - 统一成 {plugin, createTime, latestVersionUpdateTime, lastVersion} 形式
+          #   - 首次解析的插件补上 createTime / latestVersionUpdateTime
+          #   - 检测到版本变化时刷新 latestVersionUpdateTime
+          #   - 仓库 404 的条目自动移除
+          # 不提交这份改写，「最新」排序就永远是同一批时间，失去意义。
           cp upstream/plugins/index.json market/index.json
 
           # error-item.txt 是旧文件名，清理避免残留

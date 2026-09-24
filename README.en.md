@@ -26,18 +26,36 @@ https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/index.d
 ```jsonc
 {
   "official-repo": [
-    // Official plugins: packages are archived by version in this repository
-    "official-plugins/com.mysearch.pi-agent"
+    {
+      // Official plugins: packages are archived by version in this repository
+      "plugin": "official-plugins/com.mysearch.pi-agent",
+      "createTime": "2026-09-24T12:00:00.000Z",            // first listed (written by the tool)
+      "latestVersionUpdateTime": "2026-09-24T12:00:00.000Z", // last release (written by the tool)
+      "lastVersion": "2.5.2"                                // version seen on the previous run
+    }
   ],
   "three-parties": [
-    // Third-party plugins: user/repo, one plugin per repository
-    "zhuangjie/github-file-upload"
+    {
+      // Third-party plugins: user/repo, one plugin per repository
+      "plugin": "zhuangjie/github-file-upload",
+      "createTime": "...",
+      "latestVersionUpdateTime": "...",
+      "lastVersion": "1.0.0"
+    }
   ]
 }
 ```
 
-**Adding a plugin**: after review, add one line here. The developer can then publish
-releases without us touching this file again.
+**You only fill in `plugin`**; `createTime` / `latestVersionUpdateTime` / `lastVersion` are
+maintained by the build tool — don't edit them by hand.
+
+- `createTime`: when the plugin was first resolved successfully; never changes afterwards.
+- `latestVersionUpdateTime`: written on first sight; refreshed when a **version change** is
+  detected.
+- For an official plugin that should not be marked official, add `"official": false`.
+
+**Adding a plugin**: after review, add one `{"plugin": "..."}` entry; the tool fills in the
+timestamps.
 **Repository 404**: the build tool automatically removes dead repositories from
 `three-parties`.
 

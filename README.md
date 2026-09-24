@@ -25,17 +25,33 @@ https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/index.d
 ```jsonc
 {
   "official-repo": [
-    // 官方插件：包在本仓库里按版本归档
-    "official-plugins/com.mysearch.pi-agent"
+    {
+      // 官方插件：包在本仓库里按版本归档
+      "plugin": "official-plugins/com.mysearch.pi-agent",
+      "createTime": "2026-09-24T12:00:00.000Z",            // 首次上架（工具写入）
+      "latestVersionUpdateTime": "2026-09-24T12:00:00.000Z", // 最近发版（工具写入）
+      "lastVersion": "2.5.2"                                // 上次解析到的版本（工具写入）
+    }
   ],
   "three-parties": [
-    // 第三方插件：用户名/仓库名，一个仓库一个插件
-    "zhuangjie/github-file-upload"
+    {
+      // 第三方插件：用户名/仓库名，一个仓库一个插件
+      "plugin": "zhuangjie/github-file-upload",
+      "createTime": "...",
+      "latestVersionUpdateTime": "...",
+      "lastVersion": "1.0.0"
+    }
   ]
 }
 ```
 
-**新增插件**：审核后在此加一行即可，之后开发者发版无需改动本文件。
+**人工只填 `plugin`**；`createTime` / `latestVersionUpdateTime` / `lastVersion` 三个字段由构建工具维护，不要手改。
+
+- `createTime`：该插件首次被成功解析的时间，写入后不再改变。
+- `latestVersionUpdateTime`：首次写入；**检测到版本变化**时刷新。
+- 官方插件若需显式标注非官方，加 `"official": false`。
+
+**新增插件**：审核后加一条 `{"plugin": "..."}` 即可，时间字段留给工具补。
 **仓库 404**：构建工具会自动把失效的仓库从 `three-parties` 移除。
 
 > 想把自己的插件上架？见 [插件开发与上架指南](./docs/plugin-market-publish.md)。
