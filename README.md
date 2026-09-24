@@ -52,7 +52,7 @@ official-plugins/
 ### 第三方插件：自己的仓库 + Release
 
 一个仓库一个插件，规范见
-[插件上架指南](../docs/plugin-market-publish.md)：
+[插件开发与上架指南](./docs/plugin-market-publish.md)（[English](./docs/plugin-market-publish.en.md)）：
 
 - **tag = 插件 id**（如 `com.yourname.my-plugin`），稳定不变
 - **资产名 = `<插件id>.mspp`**
