@@ -5,15 +5,37 @@
     "three-parties": "第三方插件：数组项为 用户名/仓库名，一个仓库一个插件。仓库需按规范发 Release（tag = 插件 id，资产 = <插件id>.mspp）。"
   },
   "official-repo": [
-    "official-plugins/com.mysearch.pi-agent",
-    "official-plugins/com.mysearch.file-search",
-    "official-plugins/com.mysearch.market",
-    "official-plugins/com.mysearch.baidu-translate",
     {
-      "path": "official-plugins/com.zhuangjie.github-upload",
-      "official": false
+      "plugin": "official-plugins/com.mysearch.pi-agent",
+      "createTime": "2026-09-24T12:53:43.503Z",
+      "latestVersionUpdateTime": "2026-09-24T12:53:43.503Z",
+      "lastVersion": "2.5.2"
+    },
+    {
+      "plugin": "official-plugins/com.mysearch.file-search",
+      "createTime": "2026-09-24T12:53:44.252Z",
+      "latestVersionUpdateTime": "2026-09-24T12:53:44.252Z",
+      "lastVersion": "1.0.0"
+    },
+    {
+      "plugin": "official-plugins/com.mysearch.market",
+      "createTime": "2026-09-24T12:53:44.988Z",
+      "latestVersionUpdateTime": "2026-09-24T12:53:44.988Z",
+      "lastVersion": "1.0.0"
+    },
+    {
+      "plugin": "official-plugins/com.mysearch.baidu-translate",
+      "createTime": "2026-09-24T12:53:45.660Z",
+      "latestVersionUpdateTime": "2026-09-24T12:53:45.660Z",
+      "lastVersion": "1.0.0"
+    },
+    {
+      "plugin": "official-plugins/com.zhuangjie.github-upload",
+      "official": false,
+      "createTime": "2026-09-24T12:53:46.477Z",
+      "latestVersionUpdateTime": "2026-09-24T12:53:46.477Z",
+      "lastVersion": "1.0.0"
     }
   ],
   "three-parties": []
 }
-
