@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T10:21:21.913Z",
+  "generatedAt": "2026-09-24T10:24:46.844Z",
   "baseUrl": "https://github.com/My-Search/my-search-plugin-market/releases/download",
   "plugins": [
     {
@@ -22,8 +22,8 @@
         "store",
         "backend.spawn"
       ],
-      "publishedAt": "2026-09-24T10:21:12.440Z",
-      "updatedAt": "2026-09-24T10:21:12.443Z",
+      "publishedAt": "2026-09-24T10:24:37.960Z",
+      "updatedAt": "2026-09-24T10:24:37.963Z",
       "minAppVersion": "7.9.15",
       "homepage": "https://github.com/My-Search/my-search-desktop",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.pi-agent/2.5.2/icon.svg",
@@ -46,8 +46,8 @@
         "ui.inlay",
         "file.read"
       ],
-      "publishedAt": "2026-09-24T10:21:14.699Z",
-      "updatedAt": "2026-09-24T10:21:14.699Z",
+      "publishedAt": "2026-09-24T10:24:40.076Z",
+      "updatedAt": "2026-09-24T10:24:40.076Z",
       "minAppVersion": "7.9.15",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.file-search/1.0.0/icon.svg",
       "official": true
@@ -71,8 +71,8 @@
         "plugin.install",
         "ui.notify"
       ],
-      "publishedAt": "2026-09-24T10:21:16.711Z",
-      "updatedAt": "2026-09-24T10:21:16.711Z",
+      "publishedAt": "2026-09-24T10:24:42.524Z",
+      "updatedAt": "2026-09-24T10:24:42.524Z",
       "minAppVersion": "7.9.16",
       "homepage": "https://github.com/My-Search",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.market/1.0.0/icon.svg",
@@ -94,8 +94,8 @@
       "permissions": [
         "ui.inlay"
       ],
-      "publishedAt": "2026-09-24T10:21:19.662Z",
-      "updatedAt": "2026-09-24T10:21:19.662Z",
+      "publishedAt": "2026-09-24T10:24:44.508Z",
+      "updatedAt": "2026-09-24T10:24:44.508Z",
       "minAppVersion": "7.9.15",
       "homepage": "https://fanyi.baidu.com",
       "icon": "https://api.xinac.net/icon/?url=https://fanyi.baidu.com",
@@ -124,8 +124,8 @@
         "clipboard.write",
         "backend.spawn"
       ],
-      "publishedAt": "2026-09-24T10:21:21.912Z",
-      "updatedAt": "2026-09-24T10:21:21.912Z",
+      "publishedAt": "2026-09-24T10:24:46.844Z",
+      "updatedAt": "2026-09-24T10:24:46.844Z",
       "minAppVersion": "7.9.15",
       "homepage": "https://github.com/zhuangjie/github-file-upload",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.github-upload/1.0.0/icon.ico",
@@ -135,7 +135,7 @@
         "图床",
         "开发"
       ],
-      "official": true
+      "official": false
     }
   ]
 }
