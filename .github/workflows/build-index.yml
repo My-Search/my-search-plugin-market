@@ -1,0 +1,98 @@
+name: 构建插件市场索引
+
+# 读取本仓库的 index.json（人工维护的源清单），解析出每个插件的
+# 版本/哈希/下载地址，生成 index.dist.json（客户端读）与 index.error.json（开发者自查），
+# 并提交回本仓库。
+#
+# 放在**市场仓库**而非主仓库的原因：这里用仓库自带的 GITHUB_TOKEN 即可提交，
+# **不需要任何额外 secret / PAT**。客户端从本仓库的 raw 地址读取索引。
+#
+# 开发者在自己的仓库发版后，最长一小时内市场自动跟进，无需联系我们。
+on:
+  # 每小时自动构建一次
+  schedule:
+    - cron: "0 * * * *"
+  # 也支持手动触发
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "仅构建产物、不提交（演练）"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+env:
+  # 工具与源清单的权威位置（构建器复用宿主的校验器，必须从主仓库取）
+  UPSTREAM_REPO: My-Search/my-search-desktop
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # 1) 检出市场仓库（索引与源清单在这里，产物也提交回这里）
+      - name: 检出市场仓库
+        uses: actions/checkout@v4
+        with:
+          path: market
+
+      # 2) 检出主仓库（构建工具 build-index.mjs 与它依赖的 src/lib/plugins/*.ts）
+      - name: 检出主仓库（取构建工具）
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.UPSTREAM_REPO }}
+          path: upstream
+
+      # 必须是 Node 22.6+（工具用原生 TS 支持直接 import src 下的 .ts；
+      # Node 20 会报 "Unknown file extension .ts"）
+      - name: 安装 Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: 构建索引
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          # 工具按「相对主仓库根」的路径解析，因此：
+          #   - 复制市场仓库的 index.json 到 upstream/plugins/
+          #   - 在 upstream 下运行构建，产物在 upstream/dist/market/
+          mkdir -p upstream/plugins
+          cp market/index.json upstream/plugins/index.json
+          cd upstream
+          node scripts/build-index.mjs
+
+      - name: 上传构建产物
+        uses: actions/upload-artifact@v4
+        with:
+          name: market-index
+          path: |
+            upstream/dist/market/index.dist.json
+            upstream/dist/market/index.error.json
+
+      - name: 提交索引
+        if: ${{ github.event_name == 'schedule' || inputs.dry_run == false }}
+        run: |
+          set -euo pipefail
+          cp upstream/dist/market/index.dist.json market/index.dist.json
+          cp upstream/dist/market/index.error.json market/index.error.json
+
+          # 构建器可能因仓库 404 自动改写源清单，一并带回
+          cp upstream/plugins/index.json market/index.json
+
+          # error-item.txt 是旧文件名，清理避免残留
+          rm -f market/error-item.txt
+
+          cd market
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A index.json index.dist.json index.error.json error-item.txt
+          if git diff --cached --quiet; then
+            echo "索引无变化，跳过提交"
+          else
+            git commit -m "chore: 自动更新插件索引 [skip ci]"
+            git push
+          fi
