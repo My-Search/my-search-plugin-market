@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T10:24:46.844Z",
+  "generatedAt": "2026-09-24T11:34:35.649Z",
   "baseUrl": "https://github.com/My-Search/my-search-plugin-market/releases/download",
   "plugins": [
     {
@@ -22,34 +22,11 @@
         "store",
         "backend.spawn"
       ],
-      "publishedAt": "2026-09-24T10:24:37.960Z",
-      "updatedAt": "2026-09-24T10:24:37.963Z",
+      "publishedAt": "2026-09-24T11:34:32.879Z",
+      "updatedAt": "2026-09-24T11:34:32.879Z",
       "minAppVersion": "7.9.15",
       "homepage": "https://github.com/My-Search/my-search-desktop",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.pi-agent/2.5.2/icon.svg",
-      "official": true
-    },
-    {
-      "id": "com.mysearch.file-search",
-      "name": "文件搜索",
-      "version": "1.0.0",
-      "apiVersion": 1,
-      "author": "my-search",
-      "description": "在粘贴/拖入的文件夹里按名称搜索文件，回车或点击用系统默认程序打开",
-      "categories": [
-        "tools"
-      ],
-      "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.file-search/1.0.0/com.mysearch.file-search.mspp",
-      "sha256": "aaf4424f0a62b1c48cb8a130ac551e1489b2c875cf167e701c8d6bc7c489fbe1",
-      "size": 14546,
-      "permissions": [
-        "ui.inlay",
-        "file.read"
-      ],
-      "publishedAt": "2026-09-24T10:24:40.076Z",
-      "updatedAt": "2026-09-24T10:24:40.076Z",
-      "minAppVersion": "7.9.15",
-      "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.file-search/1.0.0/icon.svg",
       "official": true
     },
     {
@@ -71,8 +48,8 @@
         "plugin.install",
         "ui.notify"
       ],
-      "publishedAt": "2026-09-24T10:24:42.524Z",
-      "updatedAt": "2026-09-24T10:24:42.524Z",
+      "publishedAt": "2026-09-24T11:34:34.276Z",
+      "updatedAt": "2026-09-24T11:34:34.276Z",
       "minAppVersion": "7.9.16",
       "homepage": "https://github.com/My-Search",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.market/1.0.0/icon.svg",
@@ -94,48 +71,12 @@
       "permissions": [
         "ui.inlay"
       ],
-      "publishedAt": "2026-09-24T10:24:44.508Z",
-      "updatedAt": "2026-09-24T10:24:44.508Z",
+      "publishedAt": "2026-09-24T11:34:34.946Z",
+      "updatedAt": "2026-09-24T11:34:34.947Z",
       "minAppVersion": "7.9.15",
       "homepage": "https://fanyi.baidu.com",
       "icon": "https://api.xinac.net/icon/?url=https://fanyi.baidu.com",
       "official": true
-    },
-    {
-      "id": "com.zhuangjie.github-upload",
-      "name": "GitHub 文件上传",
-      "version": "1.0.0",
-      "apiVersion": 1,
-      "author": "zhuangjie",
-      "description": "将文件上传到 GitHub 仓库，支持拖拽、粘贴、选择文件与图片压缩",
-      "categories": [
-        "tools",
-        "developer"
-      ],
-      "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.github-upload/1.0.0/com.zhuangjie.github-upload.mspp",
-      "sha256": "ac8f45a24d754b3c2d36647030bac0f8872551a9a2f7d87cedc619d792625fb2",
-      "size": 40877,
-      "permissions": [
-        "ui.inlay",
-        "store",
-        "ui.notify",
-        "net.fetch:https://api.github.com/*",
-        "file.read",
-        "clipboard.write",
-        "backend.spawn"
-      ],
-      "publishedAt": "2026-09-24T10:24:46.844Z",
-      "updatedAt": "2026-09-24T10:24:46.844Z",
-      "minAppVersion": "7.9.15",
-      "homepage": "https://github.com/zhuangjie/github-file-upload",
-      "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.github-upload/1.0.0/icon.ico",
-      "tags": [
-        "GitHub",
-        "上传",
-        "图床",
-        "开发"
-      ],
-      "official": false
     }
   ]
 }
