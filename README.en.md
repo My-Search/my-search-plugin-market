@@ -61,8 +61,7 @@ needed for official plugins.
 ### Third-party plugins: your own repository + a Release
 
 One plugin per repository. The spec is in the
-[Plugin Development & Publishing Guide](./docs/plugin-market-publish.en.md)
-([中文](./docs/plugin-market-publish.md)):
+[Plugin Development & Publishing Guide](./docs/plugin-market-publish.en.md):
 
 - **tag = plugin id** (e.g. `com.yourname.my-plugin`), stable and never changing
 - **asset name = `<plugin-id>.mspp`**
