@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T23:47:45.735Z",
+  "generatedAt": "2026-09-25T01:48:05.612Z",
   "baseUrl": "https://github.com/My-Search/my-search-plugin-market/releases/download",
   "plugins": [
     {
@@ -32,25 +32,25 @@
     {
       "id": "com.mysearch.file-search",
       "name": "文件搜索",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "apiVersion": 1,
       "author": "my-search",
       "description": "在粘贴/拖入的文件夹里按名称搜索文件，回车或点击用系统默认程序打开",
       "categories": [
         "tools"
       ],
-      "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.file-search/1.0.0/com.mysearch.file-search.mspp",
-      "sha256": "aaf4424f0a62b1c48cb8a130ac551e1489b2c875cf167e701c8d6bc7c489fbe1",
-      "size": 14546,
+      "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.file-search/1.1.0/com.mysearch.file-search.mspp",
+      "sha256": "b443c5436ffc3f5c1b2f13e395b5d76bb58d5385320d0c7bf1ef74004b3f3eb0",
+      "size": 16922,
       "permissions": [
         "ui.inlay",
         "file.read"
       ],
       "minAppVersion": "7.9.15",
-      "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.file-search/1.0.0/icon.svg",
+      "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.file-search/1.1.0/icon.svg",
       "official": true,
       "publishedAt": "2026-09-24T12:53:44.252Z",
-      "updatedAt": "2026-09-24T12:53:44.252Z"
+      "updatedAt": "2026-09-25T01:48:03.204Z"
     },
     {
       "id": "com.mysearch.market",
