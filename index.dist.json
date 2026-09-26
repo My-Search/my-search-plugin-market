@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T04:12:03.911Z",
+  "generatedAt": "2026-09-26T08:59:49.074Z",
   "baseUrl": "https://github.com/My-Search/my-search-plugin-market/releases/download",
   "plugins": [
     {
@@ -14,8 +14,8 @@
         "tools"
       ],
       "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.pi-agent/2.5.2/com.mysearch.pi-agent.mspp",
-      "sha256": "5f7da6ca99e7d0cbc261433a528a55cfbcad985e4398b54599e9fdd68a020cba",
-      "size": 78819,
+      "sha256": "28933b97d37e9285fcd3607db78f19c71d329a37f524b91b12f6d6593557c261",
+      "size": 78974,
       "permissions": [
         "ui.inlay",
         "ui.notify",
@@ -26,8 +26,8 @@
       "homepage": "https://github.com/My-Search/my-search-desktop",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.pi-agent/2.5.2/icon.svg",
       "official": true,
-      "publishedAt": "2026-09-24T12:53:43.503Z",
-      "updatedAt": "2026-09-24T12:53:43.503Z"
+      "publishedAt": "2026-09-24T12:41:29.674Z",
+      "updatedAt": "2026-09-24T12:41:29.674Z"
     },
     {
       "id": "com.mysearch.file-search",
@@ -40,7 +40,7 @@
         "tools"
       ],
       "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.file-search/1.1.0/com.mysearch.file-search.mspp",
-      "sha256": "b443c5436ffc3f5c1b2f13e395b5d76bb58d5385320d0c7bf1ef74004b3f3eb0",
+      "sha256": "72242e8f60f26b56cb155663ac5eb0b05f3ddedc0e2c286862e50f3e0dd901fb",
       "size": 16922,
       "permissions": [
         "ui.inlay",
@@ -49,8 +49,8 @@
       "minAppVersion": "7.9.15",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.file-search/1.1.0/icon.svg",
       "official": true,
-      "publishedAt": "2026-09-24T12:53:44.252Z",
-      "updatedAt": "2026-09-25T01:48:03.204Z"
+      "publishedAt": "2026-09-24T12:41:33.656Z",
+      "updatedAt": "2026-09-26T08:59:35.242Z"
     },
     {
       "id": "com.mysearch.market",
@@ -63,8 +63,8 @@
         "tools"
       ],
       "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.market/1.0.0/com.mysearch.market.mspp",
-      "sha256": "04b277e9d545330e133757522a38fee938bc6d10620d884ffde76b98553992ce",
-      "size": 15348,
+      "sha256": "617241a4794700a7c7774d0db916e279ecd7d10e584b9e490bf1e49ae67931c9",
+      "size": 15354,
       "permissions": [
         "ui.inlay",
         "store",
@@ -76,31 +76,115 @@
       "homepage": "https://github.com/My-Search",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.market/1.0.0/icon.svg",
       "official": true,
-      "publishedAt": "2026-09-24T12:53:44.988Z",
-      "updatedAt": "2026-09-24T12:53:44.988Z"
+      "publishedAt": "2026-09-24T12:41:35.894Z",
+      "updatedAt": "2026-09-24T12:41:35.894Z"
     },
     {
       "id": "com.mysearch.baidu-translate",
       "name": "百度翻译",
       "version": "1.0.0",
       "apiVersion": 1,
-      "author": "my-search",
+      "author": "zhuangjie",
       "description": "使用百度翻译 AI 能力，支持 200+ 语言互译，输入文本即译",
       "categories": [
         "tools"
       ],
       "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.baidu-translate/1.0.0/com.mysearch.baidu-translate.mspp",
-      "sha256": "aa872a221af51ef4f7b6aae9429e9101b84db5acfa85ddb3ccde9c4ab519ba8a",
-      "size": 3354,
+      "sha256": "b50cddb8f67d81863d0bddc24cfda33f14bd19c9a39c8fc20797af74acb2e116",
+      "size": 3356,
       "permissions": [
         "ui.inlay"
       ],
       "minAppVersion": "7.9.15",
       "homepage": "https://fanyi.baidu.com",
       "icon": "https://api.xinac.net/icon/?url=https://fanyi.baidu.com",
-      "official": true,
-      "publishedAt": "2026-09-24T12:53:45.660Z",
-      "updatedAt": "2026-09-24T12:53:45.660Z"
+      "official": false,
+      "publishedAt": "2026-09-24T12:41:39.284Z",
+      "updatedAt": "2026-09-24T12:41:39.284Z"
+    },
+    {
+      "id": "com.mysearch.clipboard",
+      "name": "剪贴板历史",
+      "version": "1.0.0",
+      "apiVersion": 1,
+      "author": "zhuangjie",
+      "description": "自动记录你复制过的文本与图片，按快捷键呼出即可搜索、复制、删除。监听在后台原生完成，不干扰系统剪贴板。",
+      "categories": [
+        "tools"
+      ],
+      "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.clipboard/1.0.0/com.mysearch.clipboard.mspp",
+      "sha256": "6d5b48cb4655e92fd6b53a88f01f1a44dffcd063fe62a616fb9ff380cec97a35",
+      "size": 12544,
+      "permissions": [
+        "ui.inlay",
+        "ui.notify",
+        "store",
+        "clipboard.read",
+        "clipboard.write"
+      ],
+      "minAppVersion": "7.9.15",
+      "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.clipboard/1.0.0/icon.svg",
+      "official": false,
+      "publishedAt": "2026-09-26T03:00:00.000Z",
+      "updatedAt": "2026-09-26T03:00:00.000Z"
+    },
+    {
+      "id": "com.mysearch.recorder",
+      "name": "录屏与水印",
+      "version": "1.0.0",
+      "apiVersion": 1,
+      "author": "zhuangjie",
+      "description": "屏幕录制（可选实时叠加水印），并给已有视频批量添加文字/图片水印，支持九宫格定位与水印预设",
+      "categories": [
+        "tools"
+      ],
+      "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.recorder/1.0.0/com.mysearch.recorder.mspp",
+      "sha256": "98210bf7d0ef5f78dbfc377eba9f1448a41144737e7ccb300c247cd710ee83ea",
+      "size": 60295,
+      "permissions": [
+        "ui.inlay",
+        "ui.notify",
+        "store",
+        "file.read",
+        "backend.spawn"
+      ],
+      "minAppVersion": "7.9.15",
+      "homepage": "https://github.com/zhuangjie/recorder",
+      "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.recorder/1.0.0/icon.svg",
+      "official": false,
+      "publishedAt": "2026-09-26T03:00:00.000Z",
+      "updatedAt": "2026-09-26T03:00:00.000Z"
+    },
+    {
+      "id": "com.zhuangjie.screenshot",
+      "name": "截图",
+      "version": "1.0.0",
+      "apiVersion": 1,
+      "author": "zhuangjie",
+      "description": "全局快捷键截图：框选区域、标注后复制到剪贴板，并在前台查看最近 7 天的截图",
+      "categories": [
+        "tools"
+      ],
+      "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.screenshot/1.0.0/com.zhuangjie.screenshot.mspp",
+      "sha256": "326983aade8892afc0bf02527c308be804dbb279250d6f61be8aa10af6a1bda1",
+      "size": 24298,
+      "permissions": [
+        "ui.inlay",
+        "ui.notify",
+        "store",
+        "clipboard.write",
+        "screenshot.capture",
+        "screenshot.overlay",
+        "screenshot.write",
+        "screenshot.read",
+        "backend.spawn"
+      ],
+      "minAppVersion": "7.9.15",
+      "homepage": "https://github.com/zhuangjie/screenshot",
+      "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.screenshot/1.0.0/icon.svg",
+      "official": false,
+      "publishedAt": "2026-09-26T03:00:00.000Z",
+      "updatedAt": "2026-09-26T03:00:00.000Z"
     },
     {
       "id": "com.zhuangjie.github-upload",
@@ -110,10 +194,11 @@
       "author": "zhuangjie",
       "description": "将文件上传到 GitHub 仓库，支持拖拽、粘贴、选择文件与图片压缩",
       "categories": [
-        "tools"
+        "tools",
+        "developer"
       ],
       "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.github-upload/1.0.0/com.zhuangjie.github-upload.mspp",
-      "sha256": "ac8f45a24d754b3c2d36647030bac0f8872551a9a2f7d87cedc619d792625fb2",
+      "sha256": "04d22b37aeb3345226e58e913a85f9feafcf02468fcd427dd4cbd9e56f0e0e04",
       "size": 40877,
       "permissions": [
         "ui.inlay",
@@ -127,9 +212,47 @@
       "minAppVersion": "7.9.15",
       "homepage": "https://github.com/zhuangjie/github-file-upload",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.github-upload/1.0.0/icon.ico",
+      "tags": [
+        "GitHub",
+        "上传",
+        "图床",
+        "开发"
+      ],
       "official": false,
-      "publishedAt": "2026-09-24T12:53:46.477Z",
-      "updatedAt": "2026-09-24T12:53:46.477Z"
+      "publishedAt": "2026-09-24T12:41:43.131Z",
+      "updatedAt": "2026-09-24T12:41:43.131Z"
+    },
+    {
+      "id": "com.zhuangjie.todo-list",
+      "name": "待办清单",
+      "version": "1.0.0",
+      "apiVersion": 1,
+      "author": "zhuangjie",
+      "description": "本地待办清单：增删改查、优先级、标签、截止日期、筛选统计与 JSON 导出导入",
+      "categories": [
+        "tools"
+      ],
+      "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.todo-list/1.0.0/com.zhuangjie.todo-list.mspp",
+      "sha256": "881e8594b942d1f8c493122492fdf624b7ec23e77f142c1af29d284b822bcd5b",
+      "size": 17501,
+      "permissions": [
+        "ui.inlay",
+        "store",
+        "ui.notify"
+      ],
+      "minAppVersion": "7.9.15",
+      "homepage": "https://github.com/zhuangjie/todo-list",
+      "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.todo-list/1.0.0/icon.svg",
+      "tags": [
+        "待办",
+        "清单",
+        "todo",
+        "效率",
+        "本地存储"
+      ],
+      "official": false,
+      "publishedAt": "2026-09-26T03:00:00.000Z",
+      "updatedAt": "2026-09-26T03:00:00.000Z"
     }
   ]
 }
