@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T08:59:49.074Z",
+  "generatedAt": "2026-09-26T09:35:56.892Z",
   "baseUrl": "https://github.com/My-Search/my-search-plugin-market/releases/download",
   "plugins": [
     {
@@ -14,7 +14,7 @@
         "tools"
       ],
       "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.pi-agent/2.5.2/com.mysearch.pi-agent.mspp",
-      "sha256": "28933b97d37e9285fcd3607db78f19c71d329a37f524b91b12f6d6593557c261",
+      "sha256": "a327beb82c1cd60bbe009faf21638ca2bb2b175c2ac3dd074f2f116f3fd15862",
       "size": 78974,
       "permissions": [
         "ui.inlay",
@@ -40,7 +40,7 @@
         "tools"
       ],
       "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.file-search/1.1.0/com.mysearch.file-search.mspp",
-      "sha256": "72242e8f60f26b56cb155663ac5eb0b05f3ddedc0e2c286862e50f3e0dd901fb",
+      "sha256": "e0469f6c3a3f8f67388189b0794787a0196cfcd26acad3a3f83bdcb835f3d90a",
       "size": 16922,
       "permissions": [
         "ui.inlay",
@@ -63,7 +63,7 @@
         "tools"
       ],
       "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.market/1.0.0/com.mysearch.market.mspp",
-      "sha256": "617241a4794700a7c7774d0db916e279ecd7d10e584b9e490bf1e49ae67931c9",
+      "sha256": "96564de0491c4026115862f6a7cbd1caaaafccb12d191fbda25a0065cefbd5c9",
       "size": 15354,
       "permissions": [
         "ui.inlay",
@@ -90,7 +90,7 @@
         "tools"
       ],
       "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.baidu-translate/1.0.0/com.mysearch.baidu-translate.mspp",
-      "sha256": "b50cddb8f67d81863d0bddc24cfda33f14bd19c9a39c8fc20797af74acb2e116",
+      "sha256": "c1ff176178d7d58d023b6360919848ff62c74cc47ce3ebc0b20e39f955adc8ff",
       "size": 3356,
       "permissions": [
         "ui.inlay"
@@ -113,7 +113,7 @@
         "tools"
       ],
       "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.clipboard/1.0.0/com.mysearch.clipboard.mspp",
-      "sha256": "6d5b48cb4655e92fd6b53a88f01f1a44dffcd063fe62a616fb9ff380cec97a35",
+      "sha256": "0d931975b34d2312316bbda9f8898380a205202336bf0511dd8c0da62797ffea",
       "size": 12544,
       "permissions": [
         "ui.inlay",
@@ -139,7 +139,7 @@
         "tools"
       ],
       "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.recorder/1.0.0/com.mysearch.recorder.mspp",
-      "sha256": "98210bf7d0ef5f78dbfc377eba9f1448a41144737e7ccb300c247cd710ee83ea",
+      "sha256": "0882e7b046c48577e2b514783a46e40dc44b6d2bc5515550054eb3293c65bfe0",
       "size": 60295,
       "permissions": [
         "ui.inlay",
@@ -166,7 +166,7 @@
         "tools"
       ],
       "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.screenshot/1.0.0/com.zhuangjie.screenshot.mspp",
-      "sha256": "326983aade8892afc0bf02527c308be804dbb279250d6f61be8aa10af6a1bda1",
+      "sha256": "99d56fc37ccadd9f48eea5b621a7982555a4ba69dab7e73bd3a8906739fb5094",
       "size": 24298,
       "permissions": [
         "ui.inlay",
@@ -198,7 +198,7 @@
         "developer"
       ],
       "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.github-upload/1.0.0/com.zhuangjie.github-upload.mspp",
-      "sha256": "04d22b37aeb3345226e58e913a85f9feafcf02468fcd427dd4cbd9e56f0e0e04",
+      "sha256": "c2a2c3e0bab0ac8fa0b33ccd0a4e387c48708701fef2fbe8ab73c1bb5c6f8732",
       "size": 40877,
       "permissions": [
         "ui.inlay",
@@ -233,7 +233,7 @@
         "tools"
       ],
       "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.todo-list/1.0.0/com.zhuangjie.todo-list.mspp",
-      "sha256": "881e8594b942d1f8c493122492fdf624b7ec23e77f142c1af29d284b822bcd5b",
+      "sha256": "2b6677f0dfce01d4f6717a0c163874d192e0c02e9ab531b1d82292d8a3b73fc3",
       "size": 17501,
       "permissions": [
         "ui.inlay",
