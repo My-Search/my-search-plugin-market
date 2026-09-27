@@ -25,6 +25,7 @@
     },
     {
       "plugin": "official-plugins/com.mysearch.baidu-translate",
+      "official": false,
       "createTime": "2026-09-24T12:53:45.660Z",
       "latestVersionUpdateTime": "2026-09-24T12:53:45.660Z",
       "lastVersion": "1.0.0"
@@ -38,24 +39,28 @@
     },
     {
       "plugin": "official-plugins/com.mysearch.clipboard",
+      "official": false,
       "createTime": "2026-09-27T01:50:00.000Z",
       "latestVersionUpdateTime": "2026-09-27T01:50:00.000Z",
       "lastVersion": "1.0.0"
     },
     {
       "plugin": "official-plugins/com.mysearch.recorder",
+      "official": false,
       "createTime": "2026-09-27T01:50:00.000Z",
       "latestVersionUpdateTime": "2026-09-27T01:50:00.000Z",
       "lastVersion": "1.0.0"
     },
     {
       "plugin": "official-plugins/com.zhuangjie.screenshot",
+      "official": false,
       "createTime": "2026-09-27T01:50:00.000Z",
       "latestVersionUpdateTime": "2026-09-27T01:50:00.000Z",
       "lastVersion": "1.0.0"
     },
     {
       "plugin": "official-plugins/com.zhuangjie.todo-list",
+      "official": false,
       "createTime": "2026-09-27T01:50:00.000Z",
       "latestVersionUpdateTime": "2026-09-27T01:50:00.000Z",
       "lastVersion": "1.0.0"
