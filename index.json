@@ -35,7 +35,38 @@
       "createTime": "2026-09-24T12:53:46.477Z",
       "latestVersionUpdateTime": "2026-09-24T12:53:46.477Z",
       "lastVersion": "1.0.0"
+    },
+    {
+      "plugin": "official-plugins/com.mysearch.clipboard",
+      "createTime": "2026-09-27T01:50:00.000Z",
+      "latestVersionUpdateTime": "2026-09-27T01:50:00.000Z",
+      "lastVersion": "1.0.0"
+    },
+    {
+      "plugin": "official-plugins/com.mysearch.recorder",
+      "createTime": "2026-09-27T01:50:00.000Z",
+      "latestVersionUpdateTime": "2026-09-27T01:50:00.000Z",
+      "lastVersion": "1.0.0"
+    },
+    {
+      "plugin": "official-plugins/com.zhuangjie.screenshot",
+      "createTime": "2026-09-27T01:50:00.000Z",
+      "latestVersionUpdateTime": "2026-09-27T01:50:00.000Z",
+      "lastVersion": "1.0.0"
+    },
+    {
+      "plugin": "official-plugins/com.zhuangjie.todo-list",
+      "createTime": "2026-09-27T01:50:00.000Z",
+      "latestVersionUpdateTime": "2026-09-27T01:50:00.000Z",
+      "lastVersion": "1.0.0"
     }
   ],
-  "three-parties": []
+  "three-parties": [
+    {
+      "plugin": "My-Search/my-search-plugin-MayeLite",
+      "createTime": "2026-09-27T01:50:00.000Z",
+      "latestVersionUpdateTime": "2026-09-27T01:50:00.000Z",
+      "lastVersion": "1.0.0"
+    }
+  ]
 }
