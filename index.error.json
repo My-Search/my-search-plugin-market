@@ -1,10 +1,5 @@
 {
-  "generatedAt": "2026-09-27T01:49:57.107Z",
-  "official-repo": [
-    {
-      "path": "official-plugins/com.zhuangjie.screenshot",
-      "reason": "清单校验失败：声明了未知权限：screenshot.capture；声明了未知权限：screenshot.overlay；声明了未知权限：screenshot.write；声明了未知权限：screenshot.read"
-    }
-  ],
+  "generatedAt": "2026-09-27T02:06:24.495Z",
+  "official-repo": [],
   "three-parties": []
 }

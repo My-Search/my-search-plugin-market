@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T01:49:57.106Z",
+  "generatedAt": "2026-09-27T02:06:24.495Z",
   "baseUrl": "https://github.com/My-Search/my-search-plugin-market/releases/download",
   "plugins": [
     {
@@ -40,8 +40,8 @@
         "tools"
       ],
       "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.file-search/1.1.0/com.mysearch.file-search.mspp",
-      "sha256": "e0469f6c3a3f8f67388189b0794787a0196cfcd26acad3a3f83bdcb835f3d90a",
-      "size": 16922,
+      "sha256": "9b30b8a2cced44b4bbf6ed1503830a3118c56bea54fa76bad5dd4ed31c7b7822",
+      "size": 17105,
       "permissions": [
         "ui.inlay",
         "file.read"
@@ -98,7 +98,7 @@
       "minAppVersion": "7.9.15",
       "homepage": "https://fanyi.baidu.com",
       "icon": "https://api.xinac.net/icon/?url=https://fanyi.baidu.com",
-      "official": true,
+      "official": false,
       "publishedAt": "2026-09-24T12:53:45.660Z",
       "updatedAt": "2026-09-24T12:53:45.660Z"
     },
@@ -110,7 +110,8 @@
       "author": "zhuangjie",
       "description": "将文件上传到 GitHub 仓库，支持拖拽、粘贴、选择文件与图片压缩",
       "categories": [
-        "tools"
+        "tools",
+        "developer"
       ],
       "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.github-upload/1.0.0/com.zhuangjie.github-upload.mspp",
       "sha256": "c2a2c3e0bab0ac8fa0b33ccd0a4e387c48708701fef2fbe8ab73c1bb5c6f8732",
@@ -127,6 +128,12 @@
       "minAppVersion": "7.9.15",
       "homepage": "https://github.com/zhuangjie/github-file-upload",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.github-upload/1.0.0/icon.ico",
+      "tags": [
+        "GitHub",
+        "上传",
+        "图床",
+        "开发"
+      ],
       "official": false,
       "publishedAt": "2026-09-24T12:53:46.477Z",
       "updatedAt": "2026-09-24T12:53:46.477Z"
@@ -153,7 +160,7 @@
       ],
       "minAppVersion": "7.9.15",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.clipboard/1.0.0/icon.svg",
-      "official": true,
+      "official": false,
       "publishedAt": "2026-09-27T01:50:00.000Z",
       "updatedAt": "2026-09-27T01:50:00.000Z"
     },
@@ -180,7 +187,38 @@
       "minAppVersion": "7.9.15",
       "homepage": "https://github.com/zhuangjie/recorder",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.recorder/1.0.0/icon.svg",
-      "official": true,
+      "official": false,
+      "publishedAt": "2026-09-27T01:50:00.000Z",
+      "updatedAt": "2026-09-27T01:50:00.000Z"
+    },
+    {
+      "id": "com.zhuangjie.screenshot",
+      "name": "截图",
+      "version": "1.0.0",
+      "apiVersion": 1,
+      "author": "zhuangjie",
+      "description": "全局快捷键截图：框选区域、标注后复制到剪贴板，并在前台查看最近 7 天的截图",
+      "categories": [
+        "tools"
+      ],
+      "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.screenshot/1.0.0/com.zhuangjie.screenshot.mspp",
+      "sha256": "99d56fc37ccadd9f48eea5b621a7982555a4ba69dab7e73bd3a8906739fb5094",
+      "size": 24298,
+      "permissions": [
+        "ui.inlay",
+        "ui.notify",
+        "store",
+        "clipboard.write",
+        "screenshot.capture",
+        "screenshot.overlay",
+        "screenshot.write",
+        "screenshot.read",
+        "backend.spawn"
+      ],
+      "minAppVersion": "7.9.15",
+      "homepage": "https://github.com/zhuangjie/screenshot",
+      "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.screenshot/1.0.0/icon.svg",
+      "official": false,
       "publishedAt": "2026-09-27T01:50:00.000Z",
       "updatedAt": "2026-09-27T01:50:00.000Z"
     },
@@ -205,7 +243,14 @@
       "minAppVersion": "7.9.15",
       "homepage": "https://github.com/zhuangjie/todo-list",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.todo-list/1.0.0/icon.svg",
-      "official": true,
+      "tags": [
+        "待办",
+        "清单",
+        "todo",
+        "效率",
+        "本地存储"
+      ],
+      "official": false,
       "publishedAt": "2026-09-27T01:50:00.000Z",
       "updatedAt": "2026-09-27T01:50:00.000Z"
     },
