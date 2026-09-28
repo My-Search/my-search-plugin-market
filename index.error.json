@@ -1,5 +1,10 @@
 {
-  "generatedAt": "2026-09-28T06:27:44.125Z",
+  "generatedAt": "2026-09-28T11:39:50.682Z",
   "official-repo": [],
-  "three-parties": []
+  "three-parties": [
+    {
+      "repo": "My-Search/my-search-plugin-MayeLite",
+      "reason": "该仓库没有任何 Release"
+    }
+  ]
 }
