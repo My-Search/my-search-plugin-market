@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T08:05:16.473Z",
+  "generatedAt": "2026-09-29T10:25:47.301Z",
   "baseUrl": "https://github.com/My-Search/my-search-plugin-market/releases/download",
   "plugins": [
     {
@@ -27,8 +27,8 @@
       "homepage": "https://github.com/My-Search/my-search-desktop",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.pi-agent/2.7.0/icon.svg",
       "official": true,
-      "publishedAt": "2026-09-24T12:53:43.503Z",
-      "updatedAt": "2026-09-28T12:41:30.864Z"
+      "publishedAt": "2026-09-24T12:41:29.674Z",
+      "updatedAt": "2026-09-28T14:43:56.889Z"
     },
     {
       "id": "com.mysearch.file-search",
@@ -50,8 +50,8 @@
       "minAppVersion": "7.9.15",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.file-search/1.1.0/icon.svg",
       "official": true,
-      "publishedAt": "2026-09-24T12:53:44.252Z",
-      "updatedAt": "2026-09-25T01:48:03.204Z"
+      "publishedAt": "2026-09-24T12:41:33.656Z",
+      "updatedAt": "2026-09-27T01:37:32.974Z"
     },
     {
       "id": "com.mysearch.market",
@@ -77,8 +77,8 @@
       "homepage": "https://github.com/My-Search",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.market/1.1.0/icon.svg",
       "official": true,
-      "publishedAt": "2026-09-24T12:53:44.988Z",
-      "updatedAt": "2026-09-28T12:41:32.375Z"
+      "publishedAt": "2026-09-24T12:41:35.894Z",
+      "updatedAt": "2026-09-28T14:43:58.588Z"
     },
     {
       "id": "com.mysearch.baidu-translate",
@@ -99,9 +99,9 @@
       "minAppVersion": "7.9.15",
       "homepage": "https://fanyi.baidu.com",
       "icon": "https://api.xinac.net/icon/?url=https://fanyi.baidu.com",
-      "official": false,
-      "publishedAt": "2026-09-24T12:53:45.660Z",
-      "updatedAt": "2026-09-24T12:53:45.660Z"
+      "official": true,
+      "publishedAt": "2026-09-24T12:41:39.284Z",
+      "updatedAt": "2026-09-24T12:41:39.284Z"
     },
     {
       "id": "com.zhuangjie.github-upload",
@@ -136,22 +136,22 @@
         "开发"
       ],
       "official": false,
-      "publishedAt": "2026-09-24T12:53:46.477Z",
-      "updatedAt": "2026-09-24T12:53:46.477Z"
+      "publishedAt": "2026-09-24T12:41:43.131Z",
+      "updatedAt": "2026-09-24T12:41:43.131Z"
     },
     {
       "id": "com.mysearch.clipboard",
       "name": "剪贴板历史",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "apiVersion": 1,
       "author": "zhuangjie",
       "description": "自动记录你复制过的文本与图片，按快捷键呼出即可搜索、复制、删除、收藏。收藏的条目永久保留、不会被上限淘汰或清空。监听在后台原生完成，不干扰系统剪贴板。",
       "categories": [
         "tools"
       ],
-      "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.clipboard/1.0.0/com.mysearch.clipboard.mspp",
-      "sha256": "fe52b630f189d7f4e3c18134a015b1fa2a67de23f6fa100137210d146dd06e22",
-      "size": 17056,
+      "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.clipboard/1.1.0/com.mysearch.clipboard.mspp",
+      "sha256": "c36da651230d588b8308e15a020c50a08da6a1a8fa476c081aee42079d2d88f1",
+      "size": 17094,
       "permissions": [
         "ui.inlay",
         "ui.notify",
@@ -160,10 +160,10 @@
         "clipboard.write"
       ],
       "minAppVersion": "7.9.15",
-      "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.clipboard/1.0.0/icon.svg",
+      "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.clipboard/1.1.0/icon.svg",
       "official": false,
-      "publishedAt": "2026-09-27T01:50:00.000Z",
-      "updatedAt": "2026-09-27T01:50:00.000Z"
+      "publishedAt": "2026-09-27T01:37:42.029Z",
+      "updatedAt": "2026-09-29T10:25:20.305Z"
     },
     {
       "id": "com.mysearch.recorder",
@@ -176,8 +176,8 @@
         "tools"
       ],
       "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.recorder/1.1.0/com.mysearch.recorder.mspp",
-      "sha256": "23d23903964ae0e35ffea40bea096d041e1a3153250d3f568360242de81f7902",
-      "size": 78483,
+      "sha256": "5c47e4b6fbf203c0dd5915fdf7a1501d654d9c65581a0e36429a4ad0a6fe290d",
+      "size": 78522,
       "permissions": [
         "ui.inlay",
         "ui.notify",
@@ -190,22 +190,22 @@
       "homepage": "https://github.com/zhuangjie/recorder",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.recorder/1.1.0/icon.svg",
       "official": false,
-      "publishedAt": "2026-09-27T01:50:00.000Z",
-      "updatedAt": "2026-09-28T12:41:35.668Z"
+      "publishedAt": "2026-09-27T01:37:44.089Z",
+      "updatedAt": "2026-09-28T14:44:02.046Z"
     },
     {
       "id": "com.zhuangjie.screenshot",
       "name": "截图",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "apiVersion": 1,
       "author": "zhuangjie",
       "description": "全局快捷键截图：框选区域、标注后复制到剪贴板，并在前台查看最近 7 天的截图",
       "categories": [
         "tools"
       ],
-      "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.screenshot/1.0.0/com.zhuangjie.screenshot.mspp",
-      "sha256": "51cae226bdcac898774af936e48d811b670a142f565fe765d2baaa43c8b2c03a",
-      "size": 24843,
+      "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.screenshot/1.1.0/com.zhuangjie.screenshot.mspp",
+      "sha256": "d1940306f155196392bc9d6686c8d4c664834e18db11330577deecc7dfda4be7",
+      "size": 25241,
       "permissions": [
         "ui.inlay",
         "ui.notify",
@@ -219,10 +219,10 @@
       ],
       "minAppVersion": "7.9.15",
       "homepage": "https://github.com/zhuangjie/screenshot",
-      "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.screenshot/1.0.0/icon.svg",
+      "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.screenshot/1.1.0/icon.svg",
       "official": false,
-      "publishedAt": "2026-09-27T01:50:00.000Z",
-      "updatedAt": "2026-09-27T01:50:00.000Z"
+      "publishedAt": "2026-09-27T01:37:46.031Z",
+      "updatedAt": "2026-09-29T10:25:20.325Z"
     },
     {
       "id": "com.zhuangjie.todo-list",
@@ -253,8 +253,8 @@
         "本地存储"
       ],
       "official": false,
-      "publishedAt": "2026-09-27T01:50:00.000Z",
-      "updatedAt": "2026-09-27T01:50:00.000Z"
+      "publishedAt": "2026-09-27T01:37:47.876Z",
+      "updatedAt": "2026-09-27T01:37:47.876Z"
     },
     {
       "id": "com.my-search.mayelite",
