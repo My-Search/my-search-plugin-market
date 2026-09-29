@@ -41,8 +41,8 @@
       "plugin": "official-plugins/com.mysearch.clipboard",
       "official": false,
       "createTime": "2026-09-27T01:50:00.000Z",
-      "latestVersionUpdateTime": "2026-09-27T01:50:00.000Z",
-      "lastVersion": "1.0.0"
+      "latestVersionUpdateTime": "2026-09-29T15:30:16.494Z",
+      "lastVersion": "1.2.0"
     },
     {
       "plugin": "official-plugins/com.mysearch.recorder",
@@ -55,8 +55,8 @@
       "plugin": "official-plugins/com.zhuangjie.screenshot",
       "official": false,
       "createTime": "2026-09-27T01:50:00.000Z",
-      "latestVersionUpdateTime": "2026-09-27T01:50:00.000Z",
-      "lastVersion": "1.0.0"
+      "latestVersionUpdateTime": "2026-09-29T15:30:17.758Z",
+      "lastVersion": "1.2.0"
     },
     {
       "plugin": "official-plugins/com.zhuangjie.todo-list",
