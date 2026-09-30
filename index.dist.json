@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T14:06:30.227Z",
+  "generatedAt": "2026-09-30T14:13:00.652Z",
   "baseUrl": "https://github.com/My-Search/my-search-plugin-market/releases/download",
   "plugins": [
     {
@@ -278,6 +278,16 @@
       "minAppVersion": "7.9.15",
       "homepage": "https://github.com/My-Search/my-search-desktop",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.resource-monitor/1.0.0/icon.svg",
+      "tags": [
+        "资源监控",
+        "CPU",
+        "内存",
+        "网络",
+        "上传",
+        "性能",
+        "趋势图",
+        "任务管理器"
+      ],
       "official": false,
       "publishedAt": "2026-09-30T14:05:49.846Z",
       "updatedAt": "2026-09-30T14:05:49.846Z"
