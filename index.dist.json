@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T03:17:35.474Z",
+  "generatedAt": "2026-09-30T06:24:44.935Z",
   "baseUrl": "https://github.com/My-Search/my-search-plugin-market/releases/download",
   "plugins": [
     {
@@ -27,8 +27,8 @@
       "homepage": "https://github.com/My-Search/my-search-desktop",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.pi-agent/2.7.0/icon.svg",
       "official": true,
-      "publishedAt": "2026-09-24T12:41:29.674Z",
-      "updatedAt": "2026-09-28T14:43:56.889Z"
+      "publishedAt": "2026-09-24T12:53:43.503Z",
+      "updatedAt": "2026-09-28T12:41:30.864Z"
     },
     {
       "id": "com.mysearch.file-search",
@@ -50,8 +50,8 @@
       "minAppVersion": "7.9.15",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.file-search/1.1.0/icon.svg",
       "official": true,
-      "publishedAt": "2026-09-24T12:41:33.656Z",
-      "updatedAt": "2026-09-27T01:37:32.974Z"
+      "publishedAt": "2026-09-24T12:53:44.252Z",
+      "updatedAt": "2026-09-25T01:48:03.204Z"
     },
     {
       "id": "com.mysearch.market",
@@ -77,8 +77,8 @@
       "homepage": "https://github.com/My-Search",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.market/1.1.0/icon.svg",
       "official": true,
-      "publishedAt": "2026-09-24T12:41:35.894Z",
-      "updatedAt": "2026-09-28T14:43:58.588Z"
+      "publishedAt": "2026-09-24T12:53:44.988Z",
+      "updatedAt": "2026-09-28T12:41:32.375Z"
     },
     {
       "id": "com.mysearch.baidu-translate",
@@ -99,9 +99,9 @@
       "minAppVersion": "7.9.15",
       "homepage": "https://fanyi.baidu.com",
       "icon": "https://api.xinac.net/icon/?url=https://fanyi.baidu.com",
-      "official": true,
-      "publishedAt": "2026-09-24T12:41:39.284Z",
-      "updatedAt": "2026-09-24T12:41:39.284Z"
+      "official": false,
+      "publishedAt": "2026-09-24T12:53:45.660Z",
+      "updatedAt": "2026-09-24T12:53:45.660Z"
     },
     {
       "id": "com.zhuangjie.github-upload",
@@ -136,8 +136,8 @@
         "开发"
       ],
       "official": false,
-      "publishedAt": "2026-09-24T12:41:43.131Z",
-      "updatedAt": "2026-09-24T12:41:43.131Z"
+      "publishedAt": "2026-09-24T12:53:46.477Z",
+      "updatedAt": "2026-09-24T12:53:46.477Z"
     },
     {
       "id": "com.mysearch.clipboard",
@@ -162,8 +162,8 @@
       "minAppVersion": "7.9.15",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.clipboard/1.3.0/icon.svg",
       "official": false,
-      "publishedAt": "2026-09-27T01:37:42.029Z",
-      "updatedAt": "2026-09-30T03:17:35.444Z"
+      "publishedAt": "2026-09-27T01:50:00.000Z",
+      "updatedAt": "2026-09-30T06:24:40.793Z"
     },
     {
       "id": "com.mysearch.recorder",
@@ -190,8 +190,8 @@
       "homepage": "https://github.com/zhuangjie/recorder",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.recorder/1.3.0/icon.svg",
       "official": false,
-      "publishedAt": "2026-09-27T01:37:44.089Z",
-      "updatedAt": "2026-09-30T03:17:35.460Z"
+      "publishedAt": "2026-09-27T01:50:00.000Z",
+      "updatedAt": "2026-09-30T06:24:41.412Z"
     },
     {
       "id": "com.zhuangjie.screenshot",
@@ -221,8 +221,8 @@
       "homepage": "https://github.com/zhuangjie/screenshot",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.screenshot/1.3.0/icon.svg",
       "official": false,
-      "publishedAt": "2026-09-27T01:37:46.031Z",
-      "updatedAt": "2026-09-30T03:17:35.468Z"
+      "publishedAt": "2026-09-27T01:50:00.000Z",
+      "updatedAt": "2026-09-30T06:24:42.090Z"
     },
     {
       "id": "com.zhuangjie.todo-list",
@@ -253,8 +253,8 @@
         "本地存储"
       ],
       "official": false,
-      "publishedAt": "2026-09-27T01:37:47.876Z",
-      "updatedAt": "2026-09-27T01:37:47.876Z"
+      "publishedAt": "2026-09-27T01:50:00.000Z",
+      "updatedAt": "2026-09-27T01:50:00.000Z"
     },
     {
       "id": "com.my-search.mayelite",
