@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T13:58:54.125Z",
+  "generatedAt": "2026-09-30T14:05:51.988Z",
   "baseUrl": "https://github.com/My-Search/my-search-plugin-market/releases/download",
   "plugins": [
     {
@@ -255,6 +255,32 @@
       "official": false,
       "publishedAt": "2026-09-27T01:50:00.000Z",
       "updatedAt": "2026-09-27T01:50:00.000Z"
+    },
+    {
+      "id": "com.zhuangjie.resource-monitor",
+      "name": "资源监控",
+      "version": "1.0.0",
+      "apiVersion": 1,
+      "author": "zhuangjie",
+      "description": "每 5 秒采样整机 CPU / 内存 / 网络，按程序聚合，用可缩放时间范围的趋势图展示占用最高的 Top 10——快速定位 CPU 莫名 100%、内存暴涨、异常上传的程序",
+      "categories": [
+        "tools"
+      ],
+      "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.resource-monitor/1.0.0/com.zhuangjie.resource-monitor.mspp",
+      "sha256": "95717fa483507dafa18a339e8442a1ea81f4d281aa5eadd76f2812fc52e6c363",
+      "size": 53704,
+      "permissions": [
+        "ui.inlay",
+        "ui.notify",
+        "store",
+        "backend.spawn"
+      ],
+      "minAppVersion": "7.9.15",
+      "homepage": "https://github.com/My-Search/my-search-desktop",
+      "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.resource-monitor/1.0.0/icon.svg",
+      "official": false,
+      "publishedAt": "2026-09-30T14:05:49.846Z",
+      "updatedAt": "2026-09-30T14:05:49.846Z"
     },
     {
       "id": "com.my-search.mayelite",
