@@ -7,11 +7,28 @@ name: 构建插件市场索引
 # 放在**市场仓库**而非主仓库的原因：这里用仓库自带的 GITHUB_TOKEN 即可提交，
 # **不需要任何额外 secret / PAT**。客户端从本仓库的 raw 地址读取索引。
 #
-# 开发者在自己的仓库发版后，最长一小时内市场自动跟进，无需联系我们。
+# ## 触发方式与时效
+#
+# - push（paths: index.json）：人工增删改源清单后**立即**重建，不必等调度。
+#   本工作流自己提交的索引产物**不会**触发它——提交信息带 [skip ci]，
+#   GitHub 会跳过该次 push 的 workflow（这也是防自激循环的关键，勿删 [skip ci]）。
+# - schedule：每小时一次的**兜底轮询**。三方插件开发者在自己仓库发版后，
+#   市场无法被通知（跨仓库事件需要 PAT），只能靠这一轮跟上。
+# - workflow_dispatch：手动触发，支持演练。
+#
+# 注意：schedule 在 GitHub 上是 best-effort 的低优先级调度。官方文档明确
+# 「每小时开始的时段是负载高峰」，此时会被显著延迟，负载过高时**队列中的
+# 任务甚至会被直接丢弃**。故 cron 特意避开整点（原为 "0 * * * *"，实测平均
+# 4.8 小时才跑一次、最长 7.4 小时）。
 on:
-  # 每小时自动构建一次
+  # 源清单变更即构建（人工 push index.json 时立即生效）
+  push:
+    branches: [main]
+    paths:
+      - index.json
+  # 每小时兜底轮询一次（刻意避开整点）
   schedule:
-    - cron: "0 * * * *"
+    - cron: "17 * * * *"
   # 也支持手动触发
   workflow_dispatch:
     inputs:
@@ -23,6 +40,13 @@ on:
 
 permissions:
   contents: write
+
+# push 与 schedule 可能同时触发：两个 job 并发时会在 git push 处互相顶掉
+# （non-fast-forward）。按固定 group 串行排队（不取消），保证每一次源清单
+# 变更都被真正构建并提交。
+concurrency:
+  group: build-market-index
+  cancel-in-progress: false
 
 env:
   # 工具与源清单的权威位置（构建器复用宿主的校验器，必须从主仓库取）
@@ -73,8 +97,13 @@ jobs:
             upstream/dist/market/index.dist.json
             upstream/dist/market/index.error.json
 
+      # 演练（workflow_dispatch 且 dry_run=true）时跳过提交。
+      # 用 `inputs.dry_run != true` 判断：schedule / push 事件下 inputs.dry_run 为 null，
+      # null != true 为真 → 正常提交。原写法
+      # `github.event_name == 'schedule' || inputs.dry_run == false`
+      # 在 push 事件下 inputs.dry_run 为 null，null == false 为假，会**漏掉 push 的提交**。
       - name: 提交索引
-        if: ${{ github.event_name == 'schedule' || inputs.dry_run == false }}
+        if: ${{ inputs.dry_run != true }}
         run: |
           set -euo pipefail
           cp upstream/dist/market/index.dist.json market/index.dist.json
@@ -102,7 +131,25 @@ jobs:
           done
           if git diff --cached --quiet; then
             echo "索引无变化，跳过提交"
-          else
-            git commit -m "chore: 自动更新插件索引 [skip ci]"
-            git push
+            exit 0
           fi
+          # [skip ci] 是防御：上面的 push 触发器只在 index.json 变更时激活，
+          # 而本提交恰好会改 index.json；若去掉 [skip ci] 将自激循环构建。
+          git commit -m "chore: 自动更新插件索引 [skip ci]"
+          # 远端可能被并发运行或人工提交推进，推失败时先 rebase 再重试。
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo "✔ 索引已推送"
+              exit 0
+            fi
+            echo "⚠ 推送被拒（远端已前进），第 $attempt 次重试…"
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort
+              echo "✗ rebase 冲突：远端有并发的索引改动，需人工处理"
+              exit 1
+            fi
+            sleep $((attempt * 5))
+          done
+          echo "✗ 重试 3 次仍未推送成功"
+          exit 1
