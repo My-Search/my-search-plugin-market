@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T00:08:52.730Z",
+  "generatedAt": "2026-09-30T03:02:55.557Z",
   "baseUrl": "https://github.com/My-Search/my-search-plugin-market/releases/download",
   "plugins": [
     {
@@ -27,8 +27,8 @@
       "homepage": "https://github.com/My-Search/my-search-desktop",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.pi-agent/2.7.0/icon.svg",
       "official": true,
-      "publishedAt": "2026-09-24T12:53:43.503Z",
-      "updatedAt": "2026-09-28T12:41:30.864Z"
+      "publishedAt": "2026-09-24T12:41:29.674Z",
+      "updatedAt": "2026-09-28T14:43:56.889Z"
     },
     {
       "id": "com.mysearch.file-search",
@@ -50,8 +50,8 @@
       "minAppVersion": "7.9.15",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.file-search/1.1.0/icon.svg",
       "official": true,
-      "publishedAt": "2026-09-24T12:53:44.252Z",
-      "updatedAt": "2026-09-25T01:48:03.204Z"
+      "publishedAt": "2026-09-24T12:41:33.656Z",
+      "updatedAt": "2026-09-27T01:37:32.974Z"
     },
     {
       "id": "com.mysearch.market",
@@ -77,8 +77,8 @@
       "homepage": "https://github.com/My-Search",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.market/1.1.0/icon.svg",
       "official": true,
-      "publishedAt": "2026-09-24T12:53:44.988Z",
-      "updatedAt": "2026-09-28T12:41:32.375Z"
+      "publishedAt": "2026-09-24T12:41:35.894Z",
+      "updatedAt": "2026-09-28T14:43:58.588Z"
     },
     {
       "id": "com.mysearch.baidu-translate",
@@ -99,9 +99,9 @@
       "minAppVersion": "7.9.15",
       "homepage": "https://fanyi.baidu.com",
       "icon": "https://api.xinac.net/icon/?url=https://fanyi.baidu.com",
-      "official": false,
-      "publishedAt": "2026-09-24T12:53:45.660Z",
-      "updatedAt": "2026-09-24T12:53:45.660Z"
+      "official": true,
+      "publishedAt": "2026-09-24T12:41:39.284Z",
+      "updatedAt": "2026-09-24T12:41:39.284Z"
     },
     {
       "id": "com.zhuangjie.github-upload",
@@ -136,8 +136,8 @@
         "开发"
       ],
       "official": false,
-      "publishedAt": "2026-09-24T12:53:46.477Z",
-      "updatedAt": "2026-09-24T12:53:46.477Z"
+      "publishedAt": "2026-09-24T12:41:43.131Z",
+      "updatedAt": "2026-09-24T12:41:43.131Z"
     },
     {
       "id": "com.mysearch.clipboard",
@@ -162,22 +162,22 @@
       "minAppVersion": "7.9.15",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.clipboard/1.2.0/icon.svg",
       "official": false,
-      "publishedAt": "2026-09-27T01:50:00.000Z",
-      "updatedAt": "2026-09-29T15:30:16.494Z"
+      "publishedAt": "2026-09-27T01:37:42.029Z",
+      "updatedAt": "2026-09-29T12:51:54.276Z"
     },
     {
       "id": "com.mysearch.recorder",
       "name": "录屏与水印",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "apiVersion": 1,
       "author": "zhuangjie",
       "description": "屏幕录制（可选实时叠加水印），并给已有视频批量添加文字/图片水印，支持九宫格定位与水印预设",
       "categories": [
         "tools"
       ],
-      "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.recorder/1.1.0/com.mysearch.recorder.mspp",
-      "sha256": "5c47e4b6fbf203c0dd5915fdf7a1501d654d9c65581a0e36429a4ad0a6fe290d",
-      "size": 78522,
+      "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.recorder/1.2.0/com.mysearch.recorder.mspp",
+      "sha256": "b378d475a8a52e7f6f30443e07880a65733f693068504e1e0c4e592c69f1f443",
+      "size": 80143,
       "permissions": [
         "ui.inlay",
         "ui.notify",
@@ -188,10 +188,10 @@
       ],
       "minAppVersion": "7.9.15",
       "homepage": "https://github.com/zhuangjie/recorder",
-      "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.recorder/1.1.0/icon.svg",
+      "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.recorder/1.2.0/icon.svg",
       "official": false,
-      "publishedAt": "2026-09-27T01:50:00.000Z",
-      "updatedAt": "2026-09-28T12:41:35.668Z"
+      "publishedAt": "2026-09-27T01:37:44.089Z",
+      "updatedAt": "2026-09-30T03:02:55.544Z"
     },
     {
       "id": "com.zhuangjie.screenshot",
@@ -221,8 +221,8 @@
       "homepage": "https://github.com/zhuangjie/screenshot",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.screenshot/1.2.0/icon.svg",
       "official": false,
-      "publishedAt": "2026-09-27T01:50:00.000Z",
-      "updatedAt": "2026-09-29T15:30:17.758Z"
+      "publishedAt": "2026-09-27T01:37:46.031Z",
+      "updatedAt": "2026-09-29T12:51:54.315Z"
     },
     {
       "id": "com.zhuangjie.todo-list",
@@ -253,8 +253,8 @@
         "本地存储"
       ],
       "official": false,
-      "publishedAt": "2026-09-27T01:50:00.000Z",
-      "updatedAt": "2026-09-27T01:50:00.000Z"
+      "publishedAt": "2026-09-27T01:37:47.876Z",
+      "updatedAt": "2026-09-27T01:37:47.876Z"
     },
     {
       "id": "com.my-search.mayelite",
