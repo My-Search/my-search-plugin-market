@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T07:09:02.493Z",
+  "generatedAt": "2026-10-11T13:13:45.499Z",
   "baseUrl": "https://github.com/My-Search/my-search-plugin-market/releases/download",
   "plugins": [
     {
@@ -305,7 +305,7 @@
     {
       "id": "com.my-search.mayelite",
       "name": "MayeLite 快速启动",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "apiVersion": 1,
       "author": "My-Search",
       "description": "把常用文件/文件夹拖进来固定，随时一键打开；支持分类、排序与拖拽整理",
@@ -313,8 +313,8 @@
         "tools"
       ],
       "downloadUrl": "https://github.com/My-Search/my-search-plugin-MayeLite/releases/download/com.my-search.mayelite/com.my-search.mayelite.mspp",
-      "sha256": "ab9249fd5e2fbc39f9ebb305d67e23dc762130920b58c77be35cdd32725d8f34",
-      "size": 24204,
+      "sha256": "6f1867f4c8c3ee44180230563d3f039a42c3dc86b8100756e43146c635387d5e",
+      "size": 24862,
       "permissions": [
         "ui.inlay",
         "ui.notify",
@@ -328,7 +328,7 @@
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-MayeLite/main/icon.svg",
       "official": false,
       "publishedAt": "2026-09-27T01:50:00.000Z",
-      "updatedAt": "2026-09-27T01:50:00.000Z"
+      "updatedAt": "2026-10-11T13:13:45.499Z"
     }
   ]
 }
