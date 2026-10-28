@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T13:49:25.954Z",
+  "generatedAt": "2026-10-28T13:57:07.980Z",
   "baseUrl": "https://github.com/My-Search/my-search-plugin-market/releases/download",
   "plugins": [
     {
@@ -147,16 +147,16 @@
     {
       "id": "com.mysearch.clipboard",
       "name": "剪贴板历史",
-      "version": "1.4.2",
+      "version": "1.4.3",
       "apiVersion": 1,
       "author": "zhuangjie",
       "description": "自动记录你复制过的文本与图片，按快捷键呼出即可搜索、复制、删除、收藏。收藏的条目永久保留、不会被上限淘汰或清空，还可就地编辑内容。监听在后台原生完成，不干扰系统剪贴板。",
       "categories": [
         "tools"
       ],
-      "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.clipboard/1.4.2/com.mysearch.clipboard.mspp",
-      "sha256": "b1c008c14202b7c32cd5ed2322a9f344782e4b6ec3dd47fc131571482df1f49d",
-      "size": 21947,
+      "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.clipboard/1.4.3/com.mysearch.clipboard.mspp",
+      "sha256": "0fad6c87e7292e1e295d91ddf5fff0b724141e76e3ad80faf77746d09c50e444",
+      "size": 22215,
       "permissions": [
         "ui.inlay",
         "ui.notify",
@@ -166,11 +166,11 @@
       ],
       "minAppVersion": "7.9.15",
       "repository": "https://github.com/My-Search/my-search-desktop/tree/master/plugins/clipboard",
-      "changelog": "图片条目在列表中显示缩略图预览（点击放大前即可看到内容），读取按格式兼容 PNG/JPEG/GIF/WebP/BMP。",
-      "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.clipboard/1.4.2/icon.svg",
+      "changelog": "修复列表图片缩略图在重渲染（复制/切标签/刷新）后被清回占位文字的问题：重渲染后会回填已缓存的预览图。",
+      "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.clipboard/1.4.3/icon.svg",
       "official": false,
       "publishedAt": "2026-09-27T01:37:42.029Z",
-      "updatedAt": "2026-10-28T13:49:07.777Z"
+      "updatedAt": "2026-10-28T13:56:47.908Z"
     },
     {
       "id": "com.mysearch.recorder",
