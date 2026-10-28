@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T13:13:31.957Z",
+  "generatedAt": "2026-10-28T13:49:25.954Z",
   "baseUrl": "https://github.com/My-Search/my-search-plugin-market/releases/download",
   "plugins": [
     {
@@ -147,16 +147,16 @@
     {
       "id": "com.mysearch.clipboard",
       "name": "剪贴板历史",
-      "version": "1.4.1",
+      "version": "1.4.2",
       "apiVersion": 1,
       "author": "zhuangjie",
       "description": "自动记录你复制过的文本与图片，按快捷键呼出即可搜索、复制、删除、收藏。收藏的条目永久保留、不会被上限淘汰或清空，还可就地编辑内容。监听在后台原生完成，不干扰系统剪贴板。",
       "categories": [
         "tools"
       ],
-      "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.clipboard/1.4.1/com.mysearch.clipboard.mspp",
-      "sha256": "408e90918c25d7b0e8401939b0d3d51cf1cdb4b85f065eeec7724c5658bab76a",
-      "size": 21571,
+      "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.clipboard/1.4.2/com.mysearch.clipboard.mspp",
+      "sha256": "b1c008c14202b7c32cd5ed2322a9f344782e4b6ec3dd47fc131571482df1f49d",
+      "size": 21947,
       "permissions": [
         "ui.inlay",
         "ui.notify",
@@ -166,11 +166,11 @@
       ],
       "minAppVersion": "7.9.15",
       "repository": "https://github.com/My-Search/my-search-desktop/tree/master/plugins/clipboard",
-      "changelog": "复制条目后右上角弹「已复制」轻量提示（不再静默），给出明确反馈又不打扰。",
-      "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.clipboard/1.4.1/icon.svg",
+      "changelog": "图片条目在列表中显示缩略图预览（点击放大前即可看到内容），读取按格式兼容 PNG/JPEG/GIF/WebP/BMP。",
+      "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.clipboard/1.4.2/icon.svg",
       "official": false,
       "publishedAt": "2026-09-27T01:37:42.029Z",
-      "updatedAt": "2026-10-28T13:13:10.755Z"
+      "updatedAt": "2026-10-28T13:49:07.777Z"
     },
     {
       "id": "com.mysearch.recorder",
