@@ -20,8 +20,8 @@
     {
       "plugin": "official-plugins/com.mysearch.market",
       "createTime": "2026-09-24T12:53:44.988Z",
-      "latestVersionUpdateTime": "2026-10-02T08:27:52.412Z",
-      "lastVersion": "1.1.1"
+      "latestVersionUpdateTime": "2026-11-17T13:16:05.149Z",
+      "lastVersion": "1.1.2"
     },
     {
       "plugin": "official-plugins/com.mysearch.baidu-translate",
@@ -41,8 +41,8 @@
       "plugin": "official-plugins/com.mysearch.clipboard",
       "official": false,
       "createTime": "2026-09-27T01:50:00.000Z",
-      "latestVersionUpdateTime": "2026-10-28T18:49:21.517Z",
-      "lastVersion": "1.4.3"
+      "latestVersionUpdateTime": "2026-11-17T13:16:06.478Z",
+      "lastVersion": "1.5.1"
     },
     {
       "plugin": "official-plugins/com.mysearch.recorder",
@@ -55,15 +55,15 @@
       "plugin": "official-plugins/com.zhuangjie.screenshot",
       "official": false,
       "createTime": "2026-09-27T01:50:00.000Z",
-      "latestVersionUpdateTime": "2026-10-13T09:21:46.886Z",
-      "lastVersion": "1.3.1"
+      "latestVersionUpdateTime": "2026-11-17T13:16:07.538Z",
+      "lastVersion": "1.4.0"
     },
     {
       "plugin": "official-plugins/com.zhuangjie.todo-list",
       "official": false,
       "createTime": "2026-09-27T01:50:00.000Z",
-      "latestVersionUpdateTime": "2026-09-27T01:50:00.000Z",
-      "lastVersion": "1.0.0"
+      "latestVersionUpdateTime": "2026-11-17T13:16:08.004Z",
+      "lastVersion": "1.2.2"
     },
     {
       "plugin": "official-plugins/com.zhuangjie.resource-monitor",

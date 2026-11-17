@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T12:29:33.405Z",
+  "generatedAt": "2026-11-17T13:16:10.598Z",
   "baseUrl": "https://github.com/My-Search/my-search-plugin-market/releases/download",
   "plugins": [
     {
@@ -28,8 +28,8 @@
       "repository": "https://github.com/My-Search/my-search-desktop/tree/master/plugins/pi-agent",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.pi-agent/2.7.2/icon.svg",
       "official": true,
-      "publishedAt": "2026-09-24T12:41:29.674Z",
-      "updatedAt": "2026-10-13T06:06:35.598Z"
+      "publishedAt": "2026-09-24T12:53:43.503Z",
+      "updatedAt": "2026-10-13T09:21:42.459Z"
     },
     {
       "id": "com.mysearch.file-search",
@@ -52,8 +52,8 @@
       "repository": "https://github.com/My-Search/my-search-desktop/tree/master/plugins/file-search",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.file-search/1.2.0/icon.svg",
       "official": true,
-      "publishedAt": "2026-09-24T12:41:33.656Z",
-      "updatedAt": "2026-10-01T13:26:47.609Z"
+      "publishedAt": "2026-09-24T12:53:44.252Z",
+      "updatedAt": "2026-10-01T16:24:09.388Z"
     },
     {
       "id": "com.mysearch.market",
@@ -81,8 +81,8 @@
       "changelog": "安装/更新/卸载成功后不再整表刷新：只在原地更新对应卡片的状态（显示「已安装」徽标），列表顺序与滚动位置保持不变。",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.market/1.1.2/icon.svg",
       "official": true,
-      "publishedAt": "2026-09-24T12:41:35.894Z",
-      "updatedAt": "2026-11-17T12:24:04.200Z"
+      "publishedAt": "2026-09-24T12:53:44.988Z",
+      "updatedAt": "2026-11-17T13:16:05.149Z"
     },
     {
       "id": "com.mysearch.baidu-translate",
@@ -104,9 +104,9 @@
       "homepage": "https://fanyi.baidu.com",
       "repository": "https://github.com/My-Search/my-search-desktop/tree/master/plugins/baidu-translate",
       "icon": "https://api.xinac.net/icon/?url=https://fanyi.baidu.com",
-      "official": true,
-      "publishedAt": "2026-09-24T12:41:39.284Z",
-      "updatedAt": "2026-09-24T12:41:39.284Z"
+      "official": false,
+      "publishedAt": "2026-09-24T12:53:45.660Z",
+      "updatedAt": "2026-09-24T12:53:45.660Z"
     },
     {
       "id": "com.zhuangjie.github-upload",
@@ -142,8 +142,8 @@
         "开发"
       ],
       "official": false,
-      "publishedAt": "2026-09-24T12:41:43.131Z",
-      "updatedAt": "2026-10-13T06:06:35.621Z"
+      "publishedAt": "2026-09-24T12:53:46.477Z",
+      "updatedAt": "2026-10-13T09:21:44.966Z"
     },
     {
       "id": "com.mysearch.clipboard",
@@ -170,8 +170,8 @@
       "changelog": "默认快捷键从 Ctrl+Alt+V 调整为 Ctrl+Alt+B：Ctrl+Alt+V 让给新的「贴图」功能；老用户升级后自动迁移（自定义过热键的不受影响）。",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.clipboard/1.5.1/icon.svg",
       "official": false,
-      "publishedAt": "2026-09-27T01:37:42.029Z",
-      "updatedAt": "2026-11-17T12:24:04.224Z"
+      "publishedAt": "2026-09-27T01:50:00.000Z",
+      "updatedAt": "2026-11-17T13:16:06.478Z"
     },
     {
       "id": "com.mysearch.recorder",
@@ -199,8 +199,8 @@
       "repository": "https://github.com/My-Search/my-search-desktop/tree/master/plugins/recorder",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.recorder/1.3.2/icon.svg",
       "official": false,
-      "publishedAt": "2026-09-27T01:37:44.089Z",
-      "updatedAt": "2026-10-13T06:06:35.640Z"
+      "publishedAt": "2026-09-27T01:50:00.000Z",
+      "updatedAt": "2026-10-13T09:21:46.261Z"
     },
     {
       "id": "com.zhuangjie.screenshot",
@@ -233,8 +233,8 @@
       "changelog": "新增「贴图」：把剪贴板里的图片钉在屏幕上（默认 Ctrl+Alt+V，可贴多张）；双击贴图关闭，右键贴图可显示编辑工具 / 关闭 / 复制。",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.screenshot/1.4.0/icon.svg",
       "official": false,
-      "publishedAt": "2026-09-27T01:37:46.031Z",
-      "updatedAt": "2026-11-17T12:24:04.249Z"
+      "publishedAt": "2026-09-27T01:50:00.000Z",
+      "updatedAt": "2026-11-17T13:16:07.538Z"
     },
     {
       "id": "com.zhuangjie.todo-list",
@@ -267,8 +267,8 @@
         "本地存储"
       ],
       "official": false,
-      "publishedAt": "2026-09-27T01:37:47.876Z",
-      "updatedAt": "2026-11-17T12:24:04.255Z"
+      "publishedAt": "2026-09-27T01:50:00.000Z",
+      "updatedAt": "2026-11-17T13:16:08.004Z"
     },
     {
       "id": "com.zhuangjie.resource-monitor",
@@ -305,74 +305,7 @@
       ],
       "official": false,
       "publishedAt": "2026-09-30T14:05:49.846Z",
-      "updatedAt": "2026-10-13T06:06:35.662Z"
-    },
-    {
-      "id": "com.zhuangjie.app-uninstaller",
-      "name": "软件卸载器",
-      "version": "1.1.0",
-      "apiVersion": 1,
-      "author": "zhuangjie",
-      "description": "列出 Windows 已安装软件（含真实图标），支持卸载 / 强制卸载 / 打开安装位置；卸载结束后自动扫描安装目录、快捷方式与注册表残留，可勾选清理。",
-      "categories": [
-        "system",
-        "tools"
-      ],
-      "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.app-uninstaller/1.1.0/com.zhuangjie.app-uninstaller.mspp",
-      "sha256": "526662220c692afe4cf077603a9ee4917e10f1d4b6ee1f4deefd17d060852aae",
-      "size": 25876,
-      "permissions": [
-        "ui.inlay",
-        "ui.notify",
-        "store",
-        "backend.spawn"
-      ],
-      "minAppVersion": "7.9.15",
-      "repository": "https://github.com/My-Search/my-search-desktop/tree/master/plugins/com.zhuangjie.app-uninstaller",
-      "changelog": "列表显示软件真实图标；操作改为 卸载 / 强制卸载 / 打开位置；卸载（含强制卸载）结束后自动扫描残留，可直接勾选清理。",
-      "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.app-uninstaller/1.1.0/icon.svg",
-      "tags": [
-        "卸载",
-        "残留清理",
-        "软件管理",
-        "Windows"
-      ],
-      "official": false,
-      "publishedAt": "2026-11-17T12:24:04.281Z",
-      "updatedAt": "2026-11-17T12:24:04.281Z"
-    },
-    {
-      "id": "com.zhuangjie.mouse-gesture",
-      "name": "鼠标手势",
-      "version": "1.1.1",
-      "apiVersion": 1,
-      "author": "zhuangjie",
-      "description": "按住 Ctrl + 右键拖拽画手势，触发动作：休眠/关机/重启/命令行/资源管理器/强制关闭前台程序，也可映射到任意程序、文件夹、文件或网址。轨迹 HUD 实时反馈。",
-      "categories": [
-        "tools"
-      ],
-      "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.mouse-gesture/1.1.1/com.zhuangjie.mouse-gesture.mspp",
-      "sha256": "a4cf1b2fb09c402254fff4228eb19e87a7438f5d19216c40c5954e5316db1f4f",
-      "size": 10876,
-      "permissions": [
-        "ui.inlay",
-        "ui.notify",
-        "store",
-        "gesture.exec"
-      ],
-      "minAppVersion": "7.9.34",
-      "repository": "https://github.com/My-Search/my-search-desktop/tree/master/plugins/com.zhuangjie.mouse-gesture",
-      "changelog": "修复三连：多段手势（如先右后下）此前只能识别出末段单方向；轨迹 HUD 在多屏/缩放屏上与鼠标错位；HUD 可能被其它置顶窗盖住。录制体验：HUD 显示「录制中/已录制」，录不出时面板给出醒目提示。",
-      "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.mouse-gesture/1.1.1/icon.svg",
-      "tags": [
-        "鼠标手势",
-        "效率",
-        "快捷操作",
-        "系统控制"
-      ],
-      "official": false,
-      "publishedAt": "2026-11-17T12:24:04.286Z",
-      "updatedAt": "2026-11-17T12:24:04.286Z"
+      "updatedAt": "2026-10-13T09:21:48.049Z"
     },
     {
       "id": "com.my-search.mayelite",
