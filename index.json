@@ -71,6 +71,18 @@
       "createTime": "2026-09-30T14:05:49.846Z",
       "latestVersionUpdateTime": "2026-10-13T09:21:48.049Z",
       "lastVersion": "1.0.2"
+    },
+    {
+      "plugin": "official-plugins/com.zhuangjie.app-uninstaller",
+      "official": false
+    },
+    {
+      "plugin": "official-plugins/com.zhuangjie.mouse-gesture",
+      "official": false
+    },
+    {
+      "plugin": "official-plugins/com.zhuangjie.webdav",
+      "official": false
     }
   ],
   "three-parties": [
