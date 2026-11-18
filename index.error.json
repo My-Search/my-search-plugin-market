@@ -1,11 +1,5 @@
 {
-  "generatedAt": "2026-11-18T03:41:45.943Z",
-  "official-repo": [
-    {
-      "path": "official-plugins/com.zhuangjie.webdav",
-      "reason": "清单校验失败：声明了未知权限：file.write",
-      "official": false
-    }
-  ],
+  "generatedAt": "2026-11-18T05:50:31.909Z",
+  "official-repo": [],
   "three-parties": []
 }
