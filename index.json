@@ -74,11 +74,17 @@
     },
     {
       "plugin": "official-plugins/com.zhuangjie.app-uninstaller",
-      "official": false
+      "official": false,
+      "createTime": "2026-11-18T01:16:48.096Z",
+      "latestVersionUpdateTime": "2026-11-18T01:16:48.096Z",
+      "lastVersion": "1.1.0"
     },
     {
       "plugin": "official-plugins/com.zhuangjie.mouse-gesture",
-      "official": false
+      "official": false,
+      "createTime": "2026-11-18T01:16:48.659Z",
+      "latestVersionUpdateTime": "2026-11-18T01:16:48.659Z",
+      "lastVersion": "1.1.1"
     },
     {
       "plugin": "official-plugins/com.zhuangjie.webdav",
