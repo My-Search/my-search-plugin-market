@@ -85,6 +85,8 @@ jobs:
       - name: 构建索引
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MARKET_INDEX_PRIVATE_KEY: ${{ secrets.MARKET_INDEX_PRIVATE_KEY }}
+          MARKET_INDEX_KEY_ID: market-2026-01
         run: |
           set -euo pipefail
           # 工具按「相对主仓库根」的路径解析，因此：
