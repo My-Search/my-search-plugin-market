@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T12:17:11.131Z",
+  "generatedAt": "2026-11-21T12:22:04.247Z",
   "baseUrl": "https://github.com/My-Search/my-search-plugin-market/releases/download",
   "plugins": [
     {
@@ -28,8 +28,8 @@
       "repository": "https://github.com/My-Search/my-search-desktop/tree/master/plugins/pi-agent",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.pi-agent/2.7.3/icon.svg",
       "official": true,
-      "publishedAt": "2026-09-24T12:41:29.674Z",
-      "updatedAt": "2026-11-18T05:50:31.802Z"
+      "publishedAt": "2026-09-24T12:53:43.503Z",
+      "updatedAt": "2026-11-18T12:58:47.030Z"
     },
     {
       "id": "com.mysearch.file-search",
@@ -54,8 +54,8 @@
       "changelog": "新增：插件界面顶部关键词输入框——选好文件夹后直接在插件里输入关键词即搜（300ms 防抖即搜、回车立即搜、Esc 清空），不必再去搜索框输「文件搜索 : xx」；选好文件夹/待命时焦点自动落到输入框，搜索框子关键词入口仍兼容（与输入框互为镜像）。",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.file-search/1.4.0/icon.svg",
       "official": true,
-      "publishedAt": "2026-09-24T12:41:33.656Z",
-      "updatedAt": "2026-11-21T02:52:23.774Z"
+      "publishedAt": "2026-09-24T12:53:44.252Z",
+      "updatedAt": "2026-11-19T02:02:07.763Z"
     },
     {
       "id": "com.mysearch.market",
@@ -83,8 +83,8 @@
       "changelog": "安装/更新/卸载成功后不再整表刷新：只在原地更新对应卡片的状态（显示「已安装」徽标），列表顺序与滚动位置保持不变。",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.market/1.1.3/icon.svg",
       "official": true,
-      "publishedAt": "2026-09-24T12:41:35.894Z",
-      "updatedAt": "2026-11-18T05:50:31.816Z"
+      "publishedAt": "2026-09-24T12:53:44.988Z",
+      "updatedAt": "2026-11-18T12:58:48.326Z"
     },
     {
       "id": "com.mysearch.baidu-translate",
@@ -106,9 +106,9 @@
       "homepage": "https://fanyi.baidu.com",
       "repository": "https://github.com/My-Search/my-search-desktop/tree/master/plugins/baidu-translate",
       "icon": "https://api.xinac.net/icon/?url=https://fanyi.baidu.com",
-      "official": true,
-      "publishedAt": "2026-09-24T12:41:39.284Z",
-      "updatedAt": "2026-11-18T05:50:31.820Z"
+      "official": false,
+      "publishedAt": "2026-09-24T12:53:45.660Z",
+      "updatedAt": "2026-11-18T12:58:48.940Z"
     },
     {
       "id": "com.zhuangjie.github-upload",
@@ -144,8 +144,8 @@
         "开发"
       ],
       "official": false,
-      "publishedAt": "2026-09-24T12:41:43.131Z",
-      "updatedAt": "2026-11-18T05:50:31.830Z"
+      "publishedAt": "2026-09-24T12:53:46.477Z",
+      "updatedAt": "2026-11-18T12:58:49.644Z"
     },
     {
       "id": "com.mysearch.clipboard",
@@ -172,8 +172,8 @@
       "changelog": "声明云备份范围（backup）：收藏与分类条目、文本二次编辑随云同步分片上云，图片按引用同步，普通历史留在本机；需主程序 7.9.41+。",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.clipboard/1.6.1/icon.svg",
       "official": false,
-      "publishedAt": "2026-09-27T01:37:42.029Z",
-      "updatedAt": "2026-11-21T02:52:23.841Z"
+      "publishedAt": "2026-09-27T01:50:00.000Z",
+      "updatedAt": "2026-11-21T09:42:20.588Z"
     },
     {
       "id": "com.mysearch.recorder",
@@ -201,8 +201,8 @@
       "repository": "https://github.com/My-Search/my-search-desktop/tree/master/plugins/recorder",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.recorder/1.3.3/icon.svg",
       "official": false,
-      "publishedAt": "2026-09-27T01:37:44.089Z",
-      "updatedAt": "2026-11-18T05:50:31.851Z"
+      "publishedAt": "2026-09-27T01:50:00.000Z",
+      "updatedAt": "2026-11-18T12:58:51.027Z"
     },
     {
       "id": "com.zhuangjie.screenshot",
@@ -235,8 +235,8 @@
       "changelog": "贴图默认快捷键调整为 Ctrl+Alt+P（释放 Ctrl+Alt+V 给剪贴板历史）；支持默认自动更新。",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.screenshot/1.4.1/icon.svg",
       "official": false,
-      "publishedAt": "2026-09-27T01:37:46.031Z",
-      "updatedAt": "2026-11-18T05:50:31.861Z"
+      "publishedAt": "2026-09-27T01:50:00.000Z",
+      "updatedAt": "2026-11-18T12:58:51.728Z"
     },
     {
       "id": "com.zhuangjie.todo-list",
@@ -269,8 +269,8 @@
         "本地存储"
       ],
       "official": false,
-      "publishedAt": "2026-09-27T01:37:47.876Z",
-      "updatedAt": "2026-11-21T02:52:23.903Z"
+      "publishedAt": "2026-09-27T01:50:00.000Z",
+      "updatedAt": "2026-11-18T21:23:26.535Z"
     },
     {
       "id": "com.zhuangjie.resource-monitor",
@@ -307,7 +307,7 @@
       ],
       "official": false,
       "publishedAt": "2026-09-30T14:05:49.846Z",
-      "updatedAt": "2026-11-18T05:50:31.883Z"
+      "updatedAt": "2026-11-18T12:58:53.115Z"
     },
     {
       "id": "com.zhuangjie.app-uninstaller",
@@ -340,8 +340,8 @@
         "Windows"
       ],
       "official": false,
-      "publishedAt": "2026-11-17T12:24:04.281Z",
-      "updatedAt": "2026-11-18T05:50:31.894Z"
+      "publishedAt": "2026-11-18T01:16:48.096Z",
+      "updatedAt": "2026-11-18T12:58:53.688Z"
     },
     {
       "id": "com.zhuangjie.mouse-gesture",
@@ -373,8 +373,8 @@
         "系统控制"
       ],
       "official": false,
-      "publishedAt": "2026-11-17T12:24:04.286Z",
-      "updatedAt": "2026-11-18T05:50:31.898Z"
+      "publishedAt": "2026-11-18T01:16:48.659Z",
+      "updatedAt": "2026-11-18T12:58:54.484Z"
     },
     {
       "id": "com.zhuangjie.webdav",
@@ -411,8 +411,8 @@
         "坚果云"
       ],
       "official": false,
-      "publishedAt": "2026-11-18T01:09:10.004Z",
-      "updatedAt": "2026-11-18T01:09:10.004Z"
+      "publishedAt": "2026-11-18T12:58:55.093Z",
+      "updatedAt": "2026-11-18T12:58:55.093Z"
     },
     {
       "id": "com.my-search.mayelite",
@@ -439,14 +439,14 @@
       "repository": "https://github.com/My-Search/my-search-plugin-MayeLite",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-MayeLite/main/icon.svg",
       "official": false,
-      "publishedAt": "2026-09-27T01:41:31.148Z",
-      "updatedAt": "2026-09-27T01:41:31.148Z"
+      "publishedAt": "2026-09-27T01:50:00.000Z",
+      "updatedAt": "2026-10-11T13:13:45.499Z"
     }
   ],
   "integrity": {
     "algorithm": "ed25519",
     "keyId": "market-2026-01",
-    "signature": "c8fd8d673d2d4c6c10bd9eaefd240d908e0f963c13b3ad3aa7b60fc4497b46075abb08633466bdc42f11005118f72c6328c409a6739b115528853e486da07504",
-    "signedAt": "2026-11-21T12:17:11.137Z"
+    "signature": "1438ac31c02047dd78fec2d4fc3f86cf7f110f0a47006f00d1062f34afdf52fc01a4ddac20df7fcbd7e560bff6c3272da26697e74290c59d4ddc52fc3330520f",
+    "signedAt": "2026-11-21T12:22:04.252Z"
   }
 }
