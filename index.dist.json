@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T03:05:42.947Z",
+  "generatedAt": "2026-11-22T10:38:20.634Z",
   "baseUrl": "https://github.com/My-Search/my-search-plugin-market/releases/download",
   "plugins": [
     {
@@ -28,8 +28,8 @@
       "repository": "https://github.com/My-Search/my-search-desktop/tree/master/plugins/pi-agent",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.pi-agent/2.7.3/icon.svg",
       "official": true,
-      "publishedAt": "2026-09-24T12:53:43.503Z",
-      "updatedAt": "2026-11-18T12:58:47.030Z"
+      "publishedAt": "2026-09-24T12:41:29.674Z",
+      "updatedAt": "2026-11-18T05:50:31.802Z"
     },
     {
       "id": "com.mysearch.file-search",
@@ -54,8 +54,8 @@
       "changelog": "新增：插件界面顶部关键词输入框——选好文件夹后直接在插件里输入关键词即搜（300ms 防抖即搜、回车立即搜、Esc 清空），不必再去搜索框输「文件搜索 : xx」；选好文件夹/待命时焦点自动落到输入框，搜索框子关键词入口仍兼容（与输入框互为镜像）。",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.file-search/1.4.0/icon.svg",
       "official": true,
-      "publishedAt": "2026-09-24T12:53:44.252Z",
-      "updatedAt": "2026-11-19T02:02:07.763Z"
+      "publishedAt": "2026-09-24T12:41:33.656Z",
+      "updatedAt": "2026-11-21T02:52:23.774Z"
     },
     {
       "id": "com.mysearch.market",
@@ -83,8 +83,8 @@
       "changelog": "安装/更新/卸载成功后不再整表刷新：只在原地更新对应卡片的状态（显示「已安装」徽标），列表顺序与滚动位置保持不变。",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.market/1.1.3/icon.svg",
       "official": true,
-      "publishedAt": "2026-09-24T12:53:44.988Z",
-      "updatedAt": "2026-11-18T12:58:48.326Z"
+      "publishedAt": "2026-09-24T12:41:35.894Z",
+      "updatedAt": "2026-11-18T05:50:31.816Z"
     },
     {
       "id": "com.mysearch.baidu-translate",
@@ -106,9 +106,9 @@
       "homepage": "https://fanyi.baidu.com",
       "repository": "https://github.com/My-Search/my-search-desktop/tree/master/plugins/baidu-translate",
       "icon": "https://api.xinac.net/icon/?url=https://fanyi.baidu.com",
-      "official": false,
-      "publishedAt": "2026-09-24T12:53:45.660Z",
-      "updatedAt": "2026-11-18T12:58:48.940Z"
+      "official": true,
+      "publishedAt": "2026-09-24T12:41:39.284Z",
+      "updatedAt": "2026-11-18T05:50:31.820Z"
     },
     {
       "id": "com.zhuangjie.github-upload",
@@ -144,8 +144,8 @@
         "开发"
       ],
       "official": false,
-      "publishedAt": "2026-09-24T12:53:46.477Z",
-      "updatedAt": "2026-11-18T12:58:49.644Z"
+      "publishedAt": "2026-09-24T12:41:43.131Z",
+      "updatedAt": "2026-11-18T05:50:31.830Z"
     },
     {
       "id": "com.mysearch.clipboard",
@@ -172,8 +172,8 @@
       "changelog": "声明云备份范围（backup）：收藏与分类条目、文本二次编辑随云同步分片上云，图片按引用同步，普通历史留在本机；需主程序 7.9.41+。",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.clipboard/1.6.1/icon.svg",
       "official": false,
-      "publishedAt": "2026-09-27T01:50:00.000Z",
-      "updatedAt": "2026-11-21T09:42:20.588Z"
+      "publishedAt": "2026-09-27T01:37:42.029Z",
+      "updatedAt": "2026-11-21T02:52:23.841Z"
     },
     {
       "id": "com.mysearch.recorder",
@@ -201,8 +201,8 @@
       "repository": "https://github.com/My-Search/my-search-desktop/tree/master/plugins/recorder",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.mysearch.recorder/1.3.3/icon.svg",
       "official": false,
-      "publishedAt": "2026-09-27T01:50:00.000Z",
-      "updatedAt": "2026-11-18T12:58:51.027Z"
+      "publishedAt": "2026-09-27T01:37:44.089Z",
+      "updatedAt": "2026-11-18T05:50:31.851Z"
     },
     {
       "id": "com.zhuangjie.screenshot",
@@ -235,8 +235,8 @@
       "changelog": "贴图默认快捷键调整为 Ctrl+Alt+P（释放 Ctrl+Alt+V 给剪贴板历史）；支持默认自动更新。",
       "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.screenshot/1.4.1/icon.svg",
       "official": false,
-      "publishedAt": "2026-09-27T01:50:00.000Z",
-      "updatedAt": "2026-11-18T12:58:51.728Z"
+      "publishedAt": "2026-09-27T01:37:46.031Z",
+      "updatedAt": "2026-11-18T05:50:31.861Z"
     },
     {
       "id": "com.zhuangjie.todo-list",
@@ -269,8 +269,8 @@
         "本地存储"
       ],
       "official": false,
-      "publishedAt": "2026-09-27T01:50:00.000Z",
-      "updatedAt": "2026-11-18T21:23:26.535Z"
+      "publishedAt": "2026-09-27T01:37:47.876Z",
+      "updatedAt": "2026-11-21T02:52:23.903Z"
     },
     {
       "id": "com.zhuangjie.resource-monitor",
@@ -307,7 +307,7 @@
       ],
       "official": false,
       "publishedAt": "2026-09-30T14:05:49.846Z",
-      "updatedAt": "2026-11-18T12:58:53.115Z"
+      "updatedAt": "2026-11-18T05:50:31.883Z"
     },
     {
       "id": "com.zhuangjie.app-uninstaller",
@@ -340,8 +340,8 @@
         "Windows"
       ],
       "official": false,
-      "publishedAt": "2026-11-18T01:16:48.096Z",
-      "updatedAt": "2026-11-18T12:58:53.688Z"
+      "publishedAt": "2026-11-17T12:24:04.281Z",
+      "updatedAt": "2026-11-18T05:50:31.894Z"
     },
     {
       "id": "com.zhuangjie.mouse-gesture",
@@ -373,13 +373,13 @@
         "系统控制"
       ],
       "official": false,
-      "publishedAt": "2026-11-18T01:16:48.659Z",
-      "updatedAt": "2026-11-18T12:58:54.484Z"
+      "publishedAt": "2026-11-17T12:24:04.286Z",
+      "updatedAt": "2026-11-18T05:50:31.898Z"
     },
     {
       "id": "com.zhuangjie.webdav",
       "name": "WebDAV 网盘",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "apiVersion": 1,
       "author": "zhuangjie",
       "description": "把任意 WebDAV 服务器（坚果云、Alist、Nextcloud、自建等）当作网盘用：浏览目录、上传下载、复制剪切粘贴、重命名、收藏夹、图片/文本预览",
@@ -387,9 +387,9 @@
         "tools",
         "files"
       ],
-      "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.webdav/1.0.0/com.zhuangjie.webdav.mspp",
-      "sha256": "b90ee0e3154a983673d43f78db76e09ef89b195a3d71c023a302fbd540b27095",
-      "size": 30717,
+      "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.webdav/1.1.0/com.zhuangjie.webdav.mspp",
+      "sha256": "9d84f39ea0ba36c7bd6c8e63bd627126d6ed02526aae1ed10ab7cc4d13ce2807",
+      "size": 32788,
       "permissions": [
         "ui.inlay",
         "ui.notify",
@@ -402,7 +402,8 @@
       "minAppVersion": "7.9.35",
       "homepage": "https://github.com/My-Search/my-search-desktop/tree/master/plugins/com.zhuangjie.webdav",
       "repository": "https://github.com/My-Search/my-search-desktop/tree/master/plugins/com.zhuangjie.webdav",
-      "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.webdav/1.0.0/icon.svg",
+      "changelog": "修复：服务器设置里点保存总是新增一份配置，导致同一地址攒出多台同名服务器\n修复：每次打开插件都会误弹服务器设置对话框\n优化：加载时自动合并历史上重复的服务器配置（收藏一并保留）",
+      "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.webdav/1.1.0/icon.svg",
       "tags": [
         "WebDAV",
         "网盘",
@@ -411,8 +412,8 @@
         "坚果云"
       ],
       "official": false,
-      "publishedAt": "2026-11-18T12:58:55.093Z",
-      "updatedAt": "2026-11-18T12:58:55.093Z"
+      "publishedAt": "2026-11-18T01:09:10.004Z",
+      "updatedAt": "2026-11-22T10:37:42.839Z"
     },
     {
       "id": "com.my-search.mayelite",
@@ -446,7 +447,7 @@
   "integrity": {
     "algorithm": "ed25519",
     "keyId": "market-2026-01",
-    "signature": "f34c53da142bb5d4254448c92323eb5c781a2d494be1dc14a67b2afaf4aef3d650d7a1cdbb3eebe9a5bd7945c42b2f943a7cc8d6c15bb73d4c229cda52191104",
-    "signedAt": "2026-11-22T03:05:42.953Z"
+    "signature": "1f5ed6833b35e81dbd28724efd2af5dde4705b3ba9d90223cfc95fb7f86bcf97348579c42d53d0a6fb91c91aac10a8fb92b3ddf456c090431e97aad3ca577302",
+    "signedAt": "2026-11-22T10:38:20.638Z"
   }
 }
