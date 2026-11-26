@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T19:54:03.690Z",
+  "generatedAt": "2026-11-26T02:48:18.736Z",
   "baseUrl": "https://github.com/My-Search/my-search-plugin-market/releases/download",
   "plugins": [
     {
@@ -483,7 +483,7 @@
   "integrity": {
     "algorithm": "ed25519",
     "keyId": "market-2026-01",
-    "signature": "b366ea8ecda631e45891ad60476c3c08ce32160bb255c77910176f6b356c6d919bdaef6cf57dd97ed111d5db77acddf311a302cdcb47f368c07ac05dc8016304",
-    "signedAt": "2026-11-25T19:54:03.723Z"
+    "signature": "88cc0493aeb955730e93bda79ec86b0dc4a924c333beefd3d0a770c2e1effe773d79138db622f0afe5e1af56205a456367fda14b017fe4a42c499517910e330b",
+    "signedAt": "2026-11-26T02:48:18.758Z"
   }
 }
