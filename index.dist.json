@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T22:17:26.242Z",
+  "generatedAt": "2026-11-27T01:51:35.966Z",
   "baseUrl": "https://github.com/My-Search/my-search-plugin-market/releases/download",
   "plugins": [
     {
@@ -418,7 +418,7 @@
     {
       "id": "com.zhuangjie.github-repo-downloader",
       "name": "GitHub 仓库搜索与批量下载器",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "apiVersion": 1,
       "author": "zhuangjie",
       "description": "搜索 GitHub 仓库（名称 / 描述 / README、语言、星标、更新时间、主题等），批量勾选后打包下载到指定文件夹，支持合并为一个压缩包。",
@@ -426,9 +426,9 @@
         "tools",
         "developer"
       ],
-      "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.github-repo-downloader/1.0.0/com.zhuangjie.github-repo-downloader.mspp",
-      "sha256": "ac100568237766986f660eeff45d3c708c3a59615e3b163df7d153e49d41fe0f",
-      "size": 55527,
+      "downloadUrl": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.github-repo-downloader/1.0.1/com.zhuangjie.github-repo-downloader.mspp",
+      "sha256": "2f397473992c23631108e875d94fa579e23cb6dc84550d7f47b25a295c85ac0e",
+      "size": 55579,
       "permissions": [
         "ui.inlay",
         "ui.notify",
@@ -438,8 +438,8 @@
       ],
       "minAppVersion": "7.9.15",
       "repository": "https://github.com/My-Search/my-search-desktop/tree/master/plugins/com.zhuangjie.github-repo-downloader",
-      "changelog": "首个版本：仓库搜索与筛选、批量勾选、选择目标文件夹批量下载 ZIP / TAR.GZ、合并为一个 ZIP、下载进度与取消。",
-      "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.github-repo-downloader/1.0.0/icon.svg",
+      "changelog": "1.0.1：关闭插件界面即停止后台进程，不再常驻内存（正在进行的下载会一并中止）。",
+      "icon": "https://raw.githubusercontent.com/My-Search/my-search-plugin-market/main/official-plugins/com.zhuangjie.github-repo-downloader/1.0.1/icon.svg",
       "tags": [
         "GitHub",
         "仓库",
@@ -449,7 +449,7 @@
       ],
       "official": false,
       "publishedAt": "2026-11-23T04:18:33.793Z",
-      "updatedAt": "2026-11-23T04:18:33.793Z"
+      "updatedAt": "2026-11-27T01:51:34.120Z"
     },
     {
       "id": "com.my-search.mayelite",
@@ -483,7 +483,7 @@
   "integrity": {
     "algorithm": "ed25519",
     "keyId": "market-2026-01",
-    "signature": "30b90d42168386e4cb279bd0228be67d51386fecbe1a2121856abe5ee67188f897b57d9a0387e68ce5bee5fe017332fa86400ed0cfb535ec1c23daa52377ae0e",
-    "signedAt": "2026-11-26T22:17:26.246Z"
+    "signature": "a42bd98b3d8d31d1664f963eccad035ee1896ed1112ada0bfa9892d2fc11c0e357c1c1a0c03b484a76a50e73569f73c1ea4aec1cb44f88c37cbad8a950e63702",
+    "signedAt": "2026-11-27T01:51:35.972Z"
   }
 }
